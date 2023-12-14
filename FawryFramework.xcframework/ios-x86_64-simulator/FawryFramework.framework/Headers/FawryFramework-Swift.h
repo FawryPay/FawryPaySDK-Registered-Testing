@@ -442,6 +442,14 @@ SWIFT_CLASS("_TtC14FawryFramework14DesignableView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+typedef SWIFT_ENUM(NSInteger, DisplayType, open) {
+  DisplayTypeCircular = 0,
+  DisplayTypeRoundedCorner = 1,
+  DisplayTypeSquare = 2,
+  DisplayTypeDiamond = 3,
+  DisplayTypeUnderlinedBottom = 4,
+};
+
 
 SWIFT_CLASS("_TtC14FawryFramework10FawryError")
 @interface FawryError : NSObject
@@ -460,6 +468,13 @@ SWIFT_CLASS("_TtC14FawryFramework15FrameworkHelper")
 @interface FrameworkHelper : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+/// Different input type for OTP fields.
+typedef SWIFT_ENUM(NSInteger, KeyboardType, open) {
+  KeyboardTypeNumeric = 0,
+  KeyboardTypeAlphabet = 1,
+  KeyboardTypeAlphaNumeric = 2,
+};
 
 
 SWIFT_CLASS("_TtC14FawryFramework19LaunchCustomerModel")
@@ -565,6 +580,28 @@ SWIFT_CLASS("_TtC14FawryFramework27NearbyAddressViewController")
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC14FawryFramework12OTPFieldView")
+@interface OTPFieldView : UIView
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface OTPFieldView (SWIFT_EXTENSION(FawryFramework)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldBeginEditing:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_PROTOCOL("_TtP14FawryFramework20OTPFieldViewDelegate_")
+@protocol OTPFieldViewDelegate
+- (BOOL)shouldBecomeFirstResponderForOTPWithOtpTextFieldIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
+- (void)enteredOTPWithOtp:(NSString * _Nonnull)otp;
+- (BOOL)hasEnteredAllOTPWithHasEnteredAll:(BOOL)hasEnteredAll SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -710,6 +747,13 @@ SWIFT_CLASS("_TtC14FawryFramework10ThemeStyle")
 
 
 
+
+
+SWIFT_CLASS("_TtC14FawryFramework17ValuBillDataModel")
+@interface ValuBillDataModel : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #endif
 #if defined(__cplusplus)

@@ -22,10 +22,23 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 public struct SavedCard : Swift.Codable {
+  public var cardHolderName: Swift.String?
+  public var brand: Swift.String?
+  public var creationDate: Swift.Int64?
+  public var lastFourDigits: Swift.String?
+  public var token: Swift.String?
+  public var cardNumber: Swift.String?
+  public var cardExpiryMonth: Swift.String?
+  public var cardExpiryYear: Swift.String?
+  public var cvv: Swift.String?
+  public var firstSixDigits: Swift.String?
+  public var accountTypeCode: Swift.String?
+  public init(brand: Swift.String?, creationDate: Swift.Int64?, lastFourDigits: Swift.String?, token: Swift.String?, cardNumber: Swift.String?, cardExpiryMonth: Swift.String?, cardExpiryYear: Swift.String?, cvv: Swift.String?, firstSixDigits: Swift.String?, accountTypeCode: Swift.String?, cardHolderName: Swift.String?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public class FawryLaunchModel {
+  public var skipReceipt: Swift.Bool
   public var addressMode: FawryFramework.AddressMode?
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, showVoucherContainer: Swift.Bool?, showLoyaltyContainer: Swift.Bool?)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?)
@@ -33,6 +46,84 @@ public class FawryLaunchModel {
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?, beId: Swift.String?, showTipsView: Swift.Bool = false)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?, beId: Swift.String?, showTipsView: Swift.Bool = false, addressMode: FawryFramework.AddressMode? = .matrix)
   @objc deinit
+}
+public struct ProgramVouchersModel : Swift.Codable {
+  public var id: Swift.Int?
+  public var gift: FawryFramework.Gift?
+  public var loyaltyProgram: FawryFramework.LoyaltyProgram?
+  public var status: FawryFramework.Status?
+  public init(id: Swift.Int? = nil, gift: FawryFramework.Gift? = nil, loyaltyProgram: FawryFramework.LoyaltyProgram? = nil, status: FawryFramework.Status? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Gift : Swift.Codable {
+  public var description: Swift.String?
+  public var id: Swift.Int?
+  public var nameAr: Swift.String?
+  public var nameEn: Swift.String?
+  public var descriptionEn: Swift.String?
+  public var descriptionAr: Swift.String?
+  public var loyaltyPointCost: Swift.Int?
+  public var cashAmount: Swift.Double?
+  public var giftType: Swift.String?
+  public var budget: Swift.Int?
+  public var customerPrice: Swift.Int?
+  public var aggregatorPrice: Swift.Int?
+  public var partnerPrice: Swift.Int?
+  public var consumedBudget: Swift.Double?
+  public var canRetrievedOnline: Swift.Bool?
+  public var program: FawryFramework.Program?
+  public var image: Swift.String?
+  public var discountValue: Swift.Double?
+  public var discountType: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct LoyaltyProgram : Swift.Codable {
+  public let id: Swift.Int?
+  public let nameEn: Swift.String?
+  public let nameAr: Swift.String?
+  public init(id: Swift.Int? = nil, nameEn: Swift.String? = nil, nameAr: Swift.String? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Program : Swift.Codable {
+  public let id: Swift.Int?
+  public let code: Swift.String?
+  public let nameEn: Swift.String?
+  public let nameAr: Swift.String?
+  public let minOffer: Swift.Int?
+  public let programType: FawryFramework.ProgramType?
+  public let partial: Swift.Bool?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct ProgramType : Swift.Codable {
+  public let id: Swift.Int?
+  public let nameEn: Swift.String?
+  public let nameAr: Swift.String?
+  public let code: Swift.String?
+  public let supportedGiftTypes: [FawryFramework.SupportedGiftTypes]?
+  public let generate: Swift.Bool?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Status : Swift.Codable {
+  public let id: Swift.Int?
+  public let code: Swift.String?
+  public let nameAr: Swift.String?
+  public let nameEn: Swift.String?
+  public init(id: Swift.Int? = nil, code: Swift.String? = nil, nameAr: Swift.String? = nil, nameEn: Swift.String? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SupportedGiftTypes : Swift.Codable {
+  public let id: Swift.Int?
+  public let code: Swift.String?
+  public let nameAr: Swift.String?
+  public let nameEn: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class ChargeItemsParamsModel : Swift.Codable {
   public init(itemId: Swift.String?, charge_description: Swift.String?, price: Swift.Double?, quantity: Swift.Int?)
@@ -268,10 +359,67 @@ extension FawryFramework.CreateVoucherViewController : UIKit.UITableViewDelegate
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
 }
+@objc public protocol OTPFieldViewDelegate {
+  @objc func shouldBecomeFirstResponderForOTP(otpTextFieldIndex index: Swift.Int) -> Swift.Bool
+  @objc func enteredOTP(otp: Swift.String)
+  @objc func hasEnteredAllOTP(hasEnteredAll: Swift.Bool) -> Swift.Bool
+}
+@objc public enum DisplayType : Swift.Int {
+  case circular
+  case roundedCorner
+  case square
+  case diamond
+  case underlinedBottom
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum KeyboardType : Swift.Int {
+  case numeric
+  case alphabet
+  case alphaNumeric
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class OTPFieldView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var displayType: FawryFramework.DisplayType
+  @_Concurrency.MainActor(unsafe) public var fieldsCount: Swift.Int
+  @_Concurrency.MainActor(unsafe) public var otpInputType: FawryFramework.KeyboardType
+  @_Concurrency.MainActor(unsafe) public var fieldFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) public var secureEntry: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var hideEnteredText: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var requireCursor: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var cursorColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var fieldSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var separatorSpace: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var fieldBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var shouldAllowIntermediateEditing: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var defaultBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var filledBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var defaultBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var filledBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var errorBorderColor: UIKit.UIColor?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any FawryFramework.OTPFieldViewDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) public func initializeUI()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension FawryFramework.OTPFieldView : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
 @objc @_inheritsConvenienceInitializers public class FawrySDKConfigurationManager : ObjectiveC.NSObject {
   public static let shared: FawryFramework.FawrySDKConfigurationManager
   public func loadConfigurations(with baseURL: Swift.String? = nil)
   public func getServerAddress() -> Swift.String
+  public func setAppLanguage(lang: Swift.String?)
   public func getAppLanguage() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
@@ -444,6 +592,23 @@ extension UIKit.UIColor {
     get
   }
 }
+public struct EditAddressModel {
+  public var id: Swift.Double?
+  public var location: GoogleMaps.GMSAddress
+  public var address: Swift.String
+  public var buildingNumber: Swift.String
+  public var floorNumber: Swift.String
+  public var apartmentNumber: Swift.String
+  public var street: Swift.String
+  public var phoneNumber: Swift.String?
+  public var userName: Swift.String
+  public var mobilePhoneNumber: Swift.String
+  public var isDefaultAddress: Swift.Bool?
+  public var addressType: Swift.String?
+  public var addressTypeId: Swift.String?
+  public var addressId: Swift.Int?
+  public init(id: Swift.Double? = nil, location: GoogleMaps.GMSAddress, address: Swift.String, buildingNumber: Swift.String, floorNumber: Swift.String, apartmentNumber: Swift.String, street: Swift.String, phoneNumber: Swift.String? = nil, userName: Swift.String, mobilePhoneNumber: Swift.String, isDefaultAddress: Swift.Bool? = nil, addressType: Swift.String? = nil, addressTypeId: Swift.String? = nil, addressId: Swift.Int? = nil)
+}
 public struct KeyDetails : Swift.Codable {
   public var id: Swift.Int?
   public var code: Swift.String?
@@ -511,6 +676,15 @@ public class AddressList : Swift.Codable {
   @objc deinit
 }
 public class LaunchMerchantModel : Swift.Codable {
+  public var merchantCode: Swift.String?
+  public var submerchantCode: Swift.String?
+  public var merchantRefNum: Swift.String?
+  public var paymentMethod: FawryFramework.PaymentMethod?
+  public var secureKey: Swift.String?
+  public var branch: Swift.String?
+  public var branchCode: Swift.String?
+  public var serviceType: Swift.String?
+  public var tableId: Swift.Int?
   public init(merchantCode: Swift.String?, submerchantCode: Swift.String? = nil, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?)
   public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?, branch: Swift.String?, serviceType: Swift.String?)
   public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?, branch: Swift.String?, branchCode: Swift.String?, serviceType: Swift.String?)
@@ -588,7 +762,8 @@ public class CardDetailsModel : Swift.Codable {
   public var cardExpiryMonth: Swift.String?
   public var cardExpiryYear: Swift.String?
   public var cvv: Swift.String?
-  public init(card_number: Swift.String?, cardExpiryMonth: Swift.String?, cardExpiryYear: Swift.String?, cvv: Swift.String?)
+  public var cardHolderName: Swift.String?
+  public init(card_number: Swift.String?, cardExpiryMonth: Swift.String?, cardExpiryYear: Swift.String?, cvv: Swift.String?, cardHolderName: Swift.String?)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -699,6 +874,22 @@ public enum PaymentMethod : Swift.String, Swift.Codable {
   case cashOnDelivery
   case cashAccount
   case payByLink
+  case creditCard
+  case yellowCard
+  case forsa
+  case souhoola
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Payment_Method : Swift.String, Swift.Codable {
+  case all
+  case payAtFawry
+  case card
+  case wallet
+  case yellowCard
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -734,8 +925,24 @@ public struct RadioButtonColor {
   public typealias onPreCompletion = (FawryFramework.FawryError?) -> Swift.Void
   public typealias onErrorHandler = (FawryFramework.FawryError?) -> Swift.Void
   public typealias onSuccessHandler = (Any?) -> Swift.Void
-  public func showController(on baseController: UIKit.UIViewController, mode: FawryFramework.SDKMode, isAnimating: Swift.Bool = true, isMock: Swift.Bool = false, customViewNib: Swift.String? = nil, customViewController: UIKit.UIViewController? = nil, launchModel: FawryFramework.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, themeStyle: FawryFramework.ThemeStyle? = nil, enable3Ds: Swift.Bool = false, completionBlock: @escaping FawryFramework.FrameworkHelper.onCompletion, onPreCompletionHandler: @escaping FawryFramework.FrameworkHelper.onPreCompletion, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func showController(on baseController: UIKit.UIViewController, mode: FawryFramework.SDKMode, isAnimating: Swift.Bool = true, isMock: Swift.Bool = false, customViewNib: Swift.String? = nil, customViewController: UIKit.UIViewController? = nil, launchModel: FawryFramework.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, themeStyle: FawryFramework.ThemeStyle? = nil, enable3Ds: Swift.Bool = false, translationDict: Foundation.NSDictionary? = nil, completionBlock: @escaping FawryFramework.FrameworkHelper.onCompletion, onPreCompletionHandler: @escaping FawryFramework.FrameworkHelper.onPreCompletion, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
   public func getMerchantReferenceNumber() -> Swift.String
+  public func fetchSavedCards(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func deleteCard(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, card: FawryFramework.SavedCard, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func saveNewCard(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, card: FawryFramework.CardDetailsModel, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func getUserAddresses(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func deleteAddress(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, addressID: Swift.Int? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func editAddress(editAddressModel: FawryFramework.EditAddressModel, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func addAddress(latitude: Swift.Double?, longitude: Swift.Double?, governorate: Any?, geolocation: FawryFramework.Geolocation? = nil, city: Any?, area: Any?, street: Any?, building: Swift.String?, floor: Swift.String?, apartment: Swift.String?, landmark: Swift.String?, userName: Swift.String?, mobilePhoneNumber: Swift.String?, isDefaultAddress: Swift.Bool?, addressType: Swift.String?, addressTypeId: Swift.String?, addressId: Swift.Int?, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func addAddressTwo(latitude: Swift.Double?, longitude: Swift.Double?, governorate: Swift.String?, governorateId: Swift.String?, city: Swift.String?, cityId: Swift.String?, area: Swift.String?, areaId: Swift.String?, street: Swift.String?, streetId: Swift.String?, building: Swift.String?, floor: Swift.String?, apartment: Swift.String?, landmark: Swift.String?, userName: Swift.String?, mobilePhoneNumber: Swift.String?, isDefaultAddress: Swift.Bool?, addressType: Swift.String?, addressTypeId: Swift.String?, addressId: Swift.Int?, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func fetchCustomerPointsHistory(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func fetchCustomerVouchersHistory(page: Swift.Int, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func fetchProgramVouchers(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func fetchCustomerInfo(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func createVoucher(voucher: FawryFramework.ProgramVouchersModel, wallet: FawryFramework.WalletAccounts, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func findCouriersPerAddress(address: FawryFramework.AddressList?, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func verifyVoucher(code: Swift.String, partnerId: Swift.String, amount: Swift.Double?, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
+  public func retriveShippingGovernorates(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryFramework.LaunchMerchantModel, launchModel: FawryFramework.FawryLaunchModel? = nil, isMock: Swift.Bool = false, orderRefNum: Swift.String? = nil, errorBlock: @escaping FawryFramework.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryFramework.FrameworkHelper.onSuccessHandler)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -936,6 +1143,28 @@ extension FawryFramework.PaymentDetailsViewController : FawryFramework.RadioButt
 extension FawryFramework.PaymentDetailsViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
+public class WalletAccounts : Swift.Codable {
+  final public let accountTypeCode: Swift.String?
+  final public let accountId: Swift.String?
+  final public let accountNumber: Swift.String?
+  final public let accountNumberEncrypted: Swift.String?
+  final public let accountAlias: Swift.String?
+  final public let currencyCode: Swift.String?
+  final public let enabled: Swift.Bool?
+  public var balance: Swift.Double?
+  final public let accountStatusCode: Swift.String?
+  final public let merchantCard: Swift.Bool?
+  final public let id: Swift.Int?
+  final public let name: Swift.String?
+  final public let selected: Swift.Bool?
+  final public let enable: Swift.Bool?
+  public var monetaryValue: Swift.String?
+  final public let minRedemptionPoints: Swift.String?
+  required public init(from decoder: any Swift.Decoder) throws
+  public init(accountTypeCode: Swift.String? = nil, accountId: Swift.String? = nil, accountNumber: Swift.String? = nil, accountNumberEncrypted: Swift.String? = nil, accountAlias: Swift.String? = nil, currencyCode: Swift.String? = nil, enabled: Swift.Bool? = nil, balance: Swift.Double? = nil, accountStatusCode: Swift.String? = nil, merchantCard: Swift.Bool? = nil, id: Swift.Int? = nil, name: Swift.String? = nil, selected: Swift.Bool? = nil, enable: Swift.Bool? = nil, monetaryValue: Swift.String? = nil, minRedemptionPoints: Swift.String? = nil)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AddressListViewController : FawryFramework.BaseViewController {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var backgroundView: UIKit.UIView!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var headerView: UIKit.UIView!
@@ -954,6 +1183,11 @@ extension FawryFramework.AddressListViewController : UIKit.UITableViewDelegate, 
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
+}
+@objc @_hasMissingDesignatedInitializers public class ValuBillDataModel : ObjectiveC.NSObject, Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct Geolocation : Swift.Codable {
   public let id: Swift.Double?
@@ -976,6 +1210,12 @@ extension FawryFramework.ErrorMessages : Swift.Hashable {}
 extension FawryFramework.ErrorMessages : Swift.RawRepresentable {}
 extension FawryFramework.SectionType : Swift.Equatable {}
 extension FawryFramework.SectionType : Swift.Hashable {}
+extension FawryFramework.DisplayType : Swift.Equatable {}
+extension FawryFramework.DisplayType : Swift.Hashable {}
+extension FawryFramework.DisplayType : Swift.RawRepresentable {}
+extension FawryFramework.KeyboardType : Swift.Equatable {}
+extension FawryFramework.KeyboardType : Swift.Hashable {}
+extension FawryFramework.KeyboardType : Swift.RawRepresentable {}
 extension FawryFramework.ToastPosition : Swift.Equatable {}
 extension FawryFramework.ToastPosition : Swift.Hashable {}
 extension FawryFramework.AddressErrorMessages : Swift.Equatable {}
@@ -992,6 +1232,9 @@ extension FawryFramework.ServiceTypeCode : Swift.RawRepresentable {}
 extension FawryFramework.PaymentMethod : Swift.Equatable {}
 extension FawryFramework.PaymentMethod : Swift.Hashable {}
 extension FawryFramework.PaymentMethod : Swift.RawRepresentable {}
+extension FawryFramework.Payment_Method : Swift.Equatable {}
+extension FawryFramework.Payment_Method : Swift.Hashable {}
+extension FawryFramework.Payment_Method : Swift.RawRepresentable {}
 extension FawryFramework.WalletPaymentMethods : Swift.Equatable {}
 extension FawryFramework.WalletPaymentMethods : Swift.Hashable {}
 extension FawryFramework.WalletPaymentMethods : Swift.RawRepresentable {}
