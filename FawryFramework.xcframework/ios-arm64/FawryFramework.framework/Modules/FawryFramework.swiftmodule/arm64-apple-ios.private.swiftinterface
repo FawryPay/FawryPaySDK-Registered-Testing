@@ -475,7 +475,12 @@ extension FawryFramework.MapViewController : GoogleMaps.GMSMapViewDelegate {
   public var taxes: Swift.Double?
   public var branchServiceFees: Swift.Double?
   public var tips: Swift.Double?
+  public var usedBTC: Swift.Int?
+  public var orderStatus: Swift.String?
+  public var interestAmount: Swift.Double?
+  public var upFrontFees: Swift.Double?
   public var promoTotalDiscount: Swift.Double?
+  public var valUBillData: FawryFramework.ValuBillDataModel?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

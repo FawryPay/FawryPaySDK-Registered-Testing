@@ -24883,6 +24883,446 @@
           },
           {
             "kind": "Var",
+            "name": "usedBTC",
+            "printedName": "usedBTC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvp",
+            "mangledName": "$s14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvg",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvs",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvM",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC7usedBTCSiSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orderStatus",
+            "printedName": "orderStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvp",
+            "mangledName": "$s14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvg",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvs",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvM",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC11orderStatusSSSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interestAmount",
+            "printedName": "interestAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvp",
+            "mangledName": "$s14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvg",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvs",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvM",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC14interestAmountSdSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "upFrontFees",
+            "printedName": "upFrontFees",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvp",
+            "mangledName": "$s14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvg",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvs",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvM",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC11upFrontFeesSdSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "promoTotalDiscount",
             "printedName": "promoTotalDiscount",
             "children": [
@@ -24985,6 +25425,116 @@
                 "declKind": "Accessor",
                 "usr": "s:14FawryFramework21PaymentChargeResponseC18promoTotalDiscountSdSgvM",
                 "mangledName": "$s14FawryFramework21PaymentChargeResponseC18promoTotalDiscountSdSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "valUBillData",
+            "printedName": "valUBillData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.ValuBillDataModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ValuBillDataModel",
+                    "printedName": "FawryFramework.ValuBillDataModel",
+                    "usr": "c:@M@FawryFramework@objc(cs)ValuBillDataModel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvp",
+            "mangledName": "$s14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryFramework.ValuBillDataModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValuBillDataModel",
+                        "printedName": "FawryFramework.ValuBillDataModel",
+                        "usr": "c:@M@FawryFramework@objc(cs)ValuBillDataModel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvg",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryFramework.ValuBillDataModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValuBillDataModel",
+                        "printedName": "FawryFramework.ValuBillDataModel",
+                        "usr": "c:@M@FawryFramework@objc(cs)ValuBillDataModel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvs",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvM",
+                "mangledName": "$s14FawryFramework21PaymentChargeResponseC12valUBillDataAA08ValuBillH5ModelCSgvM",
                 "moduleName": "FawryFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -64870,63 +65420,63 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "FloatLiteral",
-      "offset": 8762,
+      "offset": 8794,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "FloatLiteral",
-      "offset": 8911,
+      "offset": 8943,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10121,
+      "offset": 10181,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10271,
+      "offset": 10331,
       "length": 25,
       "value": "\"selectedShippingAddress\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10325,
+      "offset": 10385,
       "length": 22,
       "value": "\"selectedDeliveryType\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10121,
+      "offset": 10181,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10271,
+      "offset": 10331,
       "length": 25,
       "value": "\"selectedShippingAddress\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10325,
+      "offset": 10385,
       "length": 22,
       "value": "\"selectedDeliveryType\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10790,
+      "offset": 10850,
       "length": 1,
       "value": "0"
     },
@@ -67705,28 +68255,28 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 556,
+      "offset": 587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 654,
       "length": 8,
       "value": "\"ff5100\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 845,
+      "offset": 950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 912,
+      "offset": 1017,
       "length": 8,
       "value": "\"ff5100\""
     },
@@ -68363,14 +68913,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Models\/Payment Method Response\/PaymentChargeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 3308,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Models\/Payment Method Response\/PaymentChargeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 3308,
       "length": 6,
       "value": "\"type\""
     },
@@ -72073,14 +72623,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 23266,
+      "offset": 23238,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24152,
+      "offset": 24124,
       "length": 1,
       "value": "0"
     },
@@ -73305,35 +73855,35 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Payment Info\/PaymentInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 12784,
+      "offset": 12835,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Payment Info\/PaymentInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 17175,
+      "offset": 17452,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Payment Info\/PaymentInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 18685,
+      "offset": 18962,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Payment Info\/PaymentInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 19814,
+      "offset": 20091,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Payment Info\/PaymentInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 20907,
+      "offset": 21184,
       "length": 1,
       "value": "0"
     },

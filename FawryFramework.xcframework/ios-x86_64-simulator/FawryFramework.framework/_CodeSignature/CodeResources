@@ -1976,11 +1976,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		idzQS1A5wXuSPEABboQXcWVe4XU=
+		GPFNdSpa2V02cNYq0zIDJ8PIlyI=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		36lWpDWz+tbPedY9fXLGq9LNWsk=
+		fL+4YncfWz6wvyMkj5h/VPXKuSk=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1988,11 +1988,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		36lWpDWz+tbPedY9fXLGq9LNWsk=
+		fL+4YncfWz6wvyMkj5h/VPXKuSk=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9DTVuIC5poy2NaJCX0+noSNMaxM=
+		Kt8hyQepV7aA1E64lG33CyQS3oI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2765,7 +2765,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jTROd6vZzVWV/PGZUNHIUO5SHlw=
+			HlPat547y+paWy2UD6vpctZwwlA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5582,14 +5582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyzYecQTtro8/bphNwfU1zCA8pmv/ZMQQm25JM9TsXo=
+			OX5LYJatJxgAajOvMvqJ/IAj0Pt0BaX6lOYk1cTx4/U=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFuCL4HjVQqtNY7u6T4pWN/M2S0At9zvDtX/Ri9yMH8=
+			zFxN0vcwlqjyr7DL0TDYbUCKrcFJISZkkU4kfnuhK3o=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -5603,14 +5603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFuCL4HjVQqtNY7u6T4pWN/M2S0At9zvDtX/Ri9yMH8=
+			zFxN0vcwlqjyr7DL0TDYbUCKrcFJISZkkU4kfnuhK3o=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tgK8A0/vjGvjyIdWhf1vaSahPTZzVPZVanSB3F0cv+8=
+			0HOVfSlAliOgS268XHM8CbdvfFduil0LOVBRIz6gPWw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -6561,7 +6561,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/CLxMTBKXWyljctILMIzM+jXUD+orkOqmptbaOeIMOw=
+			1KGT1MmVLAuw1O9jhBRxXHPA5x1oKpsmWVETetiiT5U=
 			</data>
 			<key>optional</key>
 			<true/>
