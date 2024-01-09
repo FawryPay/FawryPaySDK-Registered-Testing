@@ -45,6 +45,7 @@ public class FawryLaunchModel {
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?, beId: Swift.String?, showTipsView: Swift.Bool = false)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?, beId: Swift.String?, showTipsView: Swift.Bool = false, addressMode: FawryFramework.AddressMode? = .matrix)
+  public init(customer: FawryFramework.LaunchCustomerModel? = nil, merchant: FawryFramework.LaunchMerchantModel? = nil, chargeItems: [FawryFramework.ChargeItemsParamsModel]? = nil, shippingAddress: FawryFramework.AddressList? = nil, scheduledTime: Foundation.Date? = nil, beId: Swift.String? = nil, showTipsView: Swift.Bool? = nil, showLoyaltyContainer: Swift.Bool? = nil, showVoucherContainer: Swift.Bool? = nil, apiPath: Swift.String? = nil, skipReceipt: Swift.Bool? = nil, addressMode: FawryFramework.AddressMode? = .matrix)
   @objc deinit
 }
 public struct ProgramVouchersModel : Swift.Codable {
@@ -684,16 +685,15 @@ public class LaunchMerchantModel : Swift.Codable {
   public var merchantCode: Swift.String?
   public var submerchantCode: Swift.String?
   public var merchantRefNum: Swift.String?
-  public var paymentMethod: FawryFramework.PaymentMethod?
   public var secureKey: Swift.String?
   public var branch: Swift.String?
   public var branchCode: Swift.String?
   public var serviceType: Swift.String?
   public var tableId: Swift.Int?
-  public init(merchantCode: Swift.String?, submerchantCode: Swift.String? = nil, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?)
-  public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?, branch: Swift.String?, serviceType: Swift.String?)
-  public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?, branch: Swift.String?, branchCode: Swift.String?, serviceType: Swift.String?)
-  public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, paymentMethod: FawryFramework.PaymentMethod?, secureKey: Swift.String?, branch: Swift.String?, branchCode: Swift.String?, serviceType: Swift.String?, tableId: Swift.Int?)
+  public init(merchantCode: Swift.String?, submerchantCode: Swift.String? = nil, merchantRefNum: Swift.String?, secureKey: Swift.String?)
+  public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, secureKey: Swift.String?, branch: Swift.String?, serviceType: Swift.String?)
+  public init(merchantCode: Swift.String?, merchantRefNum: Swift.String?, secureKey: Swift.String?, branch: Swift.String?, branchCode: Swift.String?, serviceType: Swift.String?)
+  public init(merchantCode: Swift.String?, submerchantCode: Swift.String?, merchantRefNum: Swift.String?, secureKey: Swift.String?, branch: Swift.String?, branchCode: Swift.String?, serviceType: Swift.String?, tableId: Swift.Int?)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

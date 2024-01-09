@@ -1976,11 +1976,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QLub7GZG0MOxHHjfpKFE3FhbUFk=
+		i5YSEVzMrNU9v+tjjp696y5nVxI=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QsbsKnNQxSUM5bLq7SjTpmbJwfs=
+		OWxasjhh4ZLGDU/Kcd81Y950Dto=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1988,11 +1988,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QsbsKnNQxSUM5bLq7SjTpmbJwfs=
+		OWxasjhh4ZLGDU/Kcd81Y950Dto=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FOLQZ7qbicugmsy6WcC9SWxP0V0=
+		IBjKAdR3H8Wfzy6IjYRPO/A15fU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2148,7 +2148,7 @@
 		</data>
 		<key>TipsTableViewCell.nib</key>
 		<data>
-		+QHkBRpiCPsvAD3XkIZIvUKLMHM=
+		utmd/MNaVuesWXK6GTwqlIh3D9g=
 		</data>
 		<key>TipsValuesCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -5582,14 +5582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiYYEr2dSyFBpRVSemRhqZZ9CZPXZ5PvsUmR35aHXZk=
+			NmVUhMEUczdF9yLW0DAUjh9PnbkFlmERZZa6WvEnFlM=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VXn7dosn1W+dm4SJPHDBvXwjxCN4CFXVT23sPqrA2Ac=
+			OJNcEguLWXfuwS6o301/xIANE00oxe1V15JFWRoRKkM=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -5603,14 +5603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VXn7dosn1W+dm4SJPHDBvXwjxCN4CFXVT23sPqrA2Ac=
+			OJNcEguLWXfuwS6o301/xIANE00oxe1V15JFWRoRKkM=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T81ZhzJvvLeA1SZIyek8kPAwVBmWOhlNNUOL75wQenA=
+			bcBs3p1EViRMCSHiVUkwpgjFjc1FRaRLo9GvCsMxdeE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -5883,7 +5883,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+FY6adTocpBCkkuq3d5woXqVzvDVM8VHEHZl8vX6ITU=
+			AS5yM3Sym5/oVaMohnD4XRCjlyBfgYFqs7KdaXzNR5U=
 			</data>
 		</dict>
 		<key>TipsValuesCollectionViewCell.nib/objects-12.3+.nib</key>

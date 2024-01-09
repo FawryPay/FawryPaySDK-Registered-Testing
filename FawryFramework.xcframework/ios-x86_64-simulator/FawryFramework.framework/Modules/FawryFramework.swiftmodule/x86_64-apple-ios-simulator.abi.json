@@ -2688,6 +2688,215 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customer:merchant:chargeItems:shippingAddress:scheduledTime:beId:showTipsView:showLoyaltyContainer:showVoucherContainer:apiPath:skipReceipt:addressMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FawryLaunchModel",
+                "printedName": "FawryFramework.FawryLaunchModel",
+                "usr": "s:14FawryFramework0A11LaunchModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.LaunchCustomerModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LaunchCustomerModel",
+                    "printedName": "FawryFramework.LaunchCustomerModel",
+                    "usr": "c:@M@FawryFramework@objc(cs)LaunchCustomerModel"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.LaunchMerchantModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LaunchMerchantModel",
+                    "printedName": "FawryFramework.LaunchMerchantModel",
+                    "usr": "s:14FawryFramework19LaunchMerchantModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FawryFramework.ChargeItemsParamsModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FawryFramework.ChargeItemsParamsModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChargeItemsParamsModel",
+                        "printedName": "FawryFramework.ChargeItemsParamsModel",
+                        "usr": "s:14FawryFramework22ChargeItemsParamsModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.AddressList?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressList",
+                    "printedName": "FawryFramework.AddressList",
+                    "usr": "s:14FawryFramework11AddressListC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.AddressMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressMode",
+                    "printedName": "FawryFramework.AddressMode",
+                    "usr": "s:14FawryFramework11AddressModeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework0A11LaunchModelC8customer8merchant11chargeItems15shippingAddress13scheduledTime4beId12showTipsView0O16LoyaltyContainer0o7VoucherS07apiPath11skipReceipt11addressModeAcA0c8CustomerD0CSg_AA0c8MerchantD0CSgSayAA06Chargeh6ParamsD0CGSgAA0J4ListCSg10Foundation4DateVSgSSSgSbSgA6_A6_A5_A6_AA0jZ0OSgtcfc",
+            "mangledName": "$s14FawryFramework0A11LaunchModelC8customer8merchant11chargeItems15shippingAddress13scheduledTime4beId12showTipsView0O16LoyaltyContainer0o7VoucherS07apiPath11skipReceipt11addressModeAcA0c8CustomerD0CSg_AA0c8MerchantD0CSgSayAA06Chargeh6ParamsD0CGSgAA0J4ListCSg10Foundation4DateVSgSSSgSbSgA6_A6_A5_A6_AA0jZ0OSgtcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -34943,116 +35152,6 @@
           },
           {
             "kind": "Var",
-            "name": "paymentMethod",
-            "printedName": "paymentMethod",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FawryFramework.PaymentMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentMethod",
-                    "printedName": "FawryFramework.PaymentMethod",
-                    "usr": "s:14FawryFramework13PaymentMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvp",
-            "mangledName": "$s14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvp",
-            "moduleName": "FawryFramework",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FawryFramework.PaymentMethod?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentMethod",
-                        "printedName": "FawryFramework.PaymentMethod",
-                        "usr": "s:14FawryFramework13PaymentMethodO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvg",
-                "mangledName": "$s14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvg",
-                "moduleName": "FawryFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FawryFramework.PaymentMethod?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentMethod",
-                        "printedName": "FawryFramework.PaymentMethod",
-                        "usr": "s:14FawryFramework13PaymentMethodO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvs",
-                "mangledName": "$s14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvs",
-                "moduleName": "FawryFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvM",
-                "mangledName": "$s14FawryFramework19LaunchMerchantModelC13paymentMethodAA07PaymentG0OSgvM",
-                "moduleName": "FawryFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "secureKey",
             "printedName": "secureKey",
             "children": [
@@ -35604,7 +35703,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantCode:submerchantCode:merchantRefNum:paymentMethod:secureKey:)",
+            "printedName": "init(merchantCode:submerchantCode:merchantRefNum:secureKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35658,20 +35757,6 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FawryFramework.PaymentMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentMethod",
-                    "printedName": "FawryFramework.PaymentMethod",
-                    "usr": "s:14FawryFramework13PaymentMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
                   {
@@ -35685,8 +35770,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode011submerchantG00F6RefNum13paymentMethod9secureKeyACSSSg_A2iA07PaymentL0OSgAItcfc",
-            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode011submerchantG00F6RefNum13paymentMethod9secureKeyACSSSg_A2iA07PaymentL0OSgAItcfc",
+            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode011submerchantG00F6RefNum9secureKeyACSSSg_A3Htcfc",
+            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode011submerchantG00F6RefNum9secureKeyACSSSg_A3Htcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -35696,7 +35781,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantCode:merchantRefNum:paymentMethod:secureKey:branch:serviceType:)",
+            "printedName": "init(merchantCode:merchantRefNum:secureKey:branch:serviceType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35714,139 +35799,6 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FawryFramework.PaymentMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentMethod",
-                    "printedName": "FawryFramework.PaymentMethod",
-                    "usr": "s:14FawryFramework13PaymentMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum13paymentMethod9secureKey6branch11serviceTypeACSSSg_AjA07PaymentK0OSgA3Jtcfc",
-            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum13paymentMethod9secureKey6branch11serviceTypeACSSSg_AjA07PaymentK0OSgA3Jtcfc",
-            "moduleName": "FawryFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(merchantCode:merchantRefNum:paymentMethod:secureKey:branch:branchCode:serviceType:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LaunchMerchantModel",
-                "printedName": "FawryFramework.LaunchMerchantModel",
-                "usr": "s:14FawryFramework19LaunchMerchantModelC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FawryFramework.PaymentMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentMethod",
-                    "printedName": "FawryFramework.PaymentMethod",
-                    "usr": "s:14FawryFramework13PaymentMethodO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -35909,8 +35861,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum13paymentMethod9secureKey6branch0nG011serviceTypeACSSSg_AkA07PaymentK0OSgA4Ktcfc",
-            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum13paymentMethod9secureKey6branch0nG011serviceTypeACSSSg_AkA07PaymentK0OSgA4Ktcfc",
+            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum9secureKey6branch11serviceTypeACSSSg_A4Itcfc",
+            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum9secureKey6branch11serviceTypeACSSSg_A4Itcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -35920,7 +35872,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantCode:merchantRefNum:paymentMethod:secureKey:branch:branchCode:serviceType:tableId:)",
+            "printedName": "init(merchantCode:merchantRefNum:secureKey:branch:branchCode:serviceType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35959,13 +35911,118 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FawryFramework.PaymentMethod?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentMethod",
-                    "printedName": "FawryFramework.PaymentMethod",
-                    "usr": "s:14FawryFramework13PaymentMethodO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum9secureKey6branch0lG011serviceTypeACSSSg_A5Jtcfc",
+            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum9secureKey6branch0lG011serviceTypeACSSSg_A5Jtcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantCode:submerchantCode:merchantRefNum:secureKey:branch:branchCode:serviceType:tableId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LaunchMerchantModel",
+                "printedName": "FawryFramework.LaunchMerchantModel",
+                "usr": "s:14FawryFramework19LaunchMerchantModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
@@ -36042,8 +36099,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum13paymentMethod9secureKey6branch0nG011serviceType7tableIdACSSSg_AlA07PaymentK0OSgA4LSiSgtcfc",
-            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode0F6RefNum13paymentMethod9secureKey6branch0nG011serviceType7tableIdACSSSg_AlA07PaymentK0OSgA4LSiSgtcfc",
+            "usr": "s:14FawryFramework19LaunchMerchantModelC12merchantCode011submerchantG00F6RefNum9secureKey6branch0mG011serviceType7tableIdACSSSg_A6LSiSgtcfc",
+            "mangledName": "$s14FawryFramework19LaunchMerchantModelC12merchantCode011submerchantG00F6RefNum9secureKey6branch0mG011serviceType7tableIdACSSSg_A6LSiSgtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -71074,14 +71131,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Address\/Constants\/ManageAddressWebConstants.swift",
       "kind": "StringLiteral",
-      "offset": 273,
-      "length": 38,
-      "value": "\"fawrypay-api\/api\/customers\/addresses\""
+      "offset": 346,
+      "length": 34,
+      "value": "\"customer-api\/customers\/addresses\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Address\/Constants\/ManageAddressWebConstants.swift",
       "kind": "StringLiteral",
-      "offset": 341,
+      "offset": 410,
       "length": 28,
       "value": "\"fawrypay-api\/api\/couriers\/\""
     },
