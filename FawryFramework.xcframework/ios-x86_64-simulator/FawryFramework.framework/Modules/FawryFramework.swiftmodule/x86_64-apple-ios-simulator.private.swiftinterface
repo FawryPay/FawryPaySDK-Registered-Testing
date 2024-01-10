@@ -11,6 +11,7 @@ import CryptoKit
 import Foundation
 import GoogleMaps
 import GooglePlaces
+import IQKeyboardManagerSwift
 import MapKit
 import ObjectiveC
 import RxSwift
@@ -420,6 +421,7 @@ extension FawryFramework.OTPFieldView : UIKit.UITextFieldDelegate {
   public static let shared: FawryFramework.FawrySDKConfigurationManager
   public func loadConfigurations(with baseURL: Swift.String? = nil)
   public func getServerAddress() -> Swift.String
+  public func keyboardConfigrations()
   public func setAppLanguage(lang: Swift.String?)
   public func getAppLanguage() -> Swift.String
   @objc override dynamic public init()
