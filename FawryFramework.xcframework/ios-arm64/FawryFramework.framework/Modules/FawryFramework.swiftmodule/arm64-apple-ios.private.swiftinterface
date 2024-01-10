@@ -625,6 +625,7 @@ public struct KeyDetails : Swift.Codable {
   public var nameToDisplay: Swift.String {
     get
   }
+  public init(id: Swift.Int?, code: Swift.String?, namePrimaryLang: Swift.String?, nameSecondaryLang: Swift.String?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

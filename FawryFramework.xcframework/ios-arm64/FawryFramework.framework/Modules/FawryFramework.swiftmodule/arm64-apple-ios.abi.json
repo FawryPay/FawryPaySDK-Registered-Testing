@@ -31217,6 +31217,83 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(id:code:namePrimaryLang:nameSecondaryLang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyDetails",
+                "printedName": "FawryFramework.KeyDetails",
+                "usr": "s:14FawryFramework10KeyDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework10KeyDetailsV2id4code15namePrimaryLang0g9SecondaryI0ACSiSg_SSSgA2Itcfc",
+            "mangledName": "$s14FawryFramework10KeyDetailsV2id4code15namePrimaryLang0g9SecondaryI0ACSiSg_SSSgA2Itcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -70505,14 +70582,14 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryFramework\/FawryFramework\/Merchant\/Merchant Details\/Models\/Customer\/AddressList.swift",
       "kind": "StringLiteral",
-      "offset": 3228,
+      "offset": 3235,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryFramework\/FawryFramework\/Merchant\/Merchant Details\/Models\/Customer\/AddressList.swift",
       "kind": "StringLiteral",
-      "offset": 3228,
+      "offset": 3235,
       "length": 9,
       "value": "\"default\""
     },
