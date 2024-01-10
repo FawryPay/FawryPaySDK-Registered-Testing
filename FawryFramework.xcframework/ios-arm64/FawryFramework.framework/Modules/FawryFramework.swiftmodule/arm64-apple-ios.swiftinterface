@@ -668,6 +668,7 @@ public class AddressList : Swift.Codable {
     get
   }
   public init(isDefault: Swift.Bool?, id: Swift.Int?, governorate: Any?, city: Any?, area: Any?, street: Any?, isDefaultAddress: Swift.Bool?, receiverName: Swift.String?, latitude: Swift.Double?, longitude: Swift.Double?, receiverMobile: Swift.String?, building: Swift.String?, floor: Swift.String?, apartment: Swift.String?, landmark: Swift.String?, addressType: Swift.String?, geolocation: FawryFramework.Geolocation? = nil)
+  convenience public init(isDefault: Swift.Bool?, id: Swift.Int?, governorate: Any?, city: Any?, area: Any?, street: Any?, isDefaultAddress: Swift.Bool?, receiverName: Swift.String?, latitude: Swift.Double?, longitude: Swift.Double?, receiverMobile: Swift.String?, building: Swift.String?, floor: Swift.String?, apartment: Swift.String?, landmark: Swift.String?, addressType: FawryFramework.KeyDetails?, geolocation: FawryFramework.Geolocation? = nil)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
