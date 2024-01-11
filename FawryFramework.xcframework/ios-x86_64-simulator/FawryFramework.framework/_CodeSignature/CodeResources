@@ -656,6 +656,10 @@
 		<data>
 		Yu3eOCPKxBS6NsqwOGYt9qnGY1g=
 		</data>
+		<key>GoogleMaps.bundle/Assets.car</key>
+		<data>
+		hf99c8bGZ6sY/VjUvL1+3+3ZnLE=
+		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
 		6xa+f3YJTyV2uQzd9QC3rRwsluQ=
@@ -670,11 +674,11 @@
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist</key>
 		<data>
-		+SdbzNPhdx+DGxCAkXasnj7DCTI=
+		HTYqw3m8dIaBrYtkwin0OHV6t04=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car</key>
 		<data>
-		Ji8jLQ/tplz7n7DTaGRJIGhTJY0=
+		hrpZF0SXVR9KO2B2Wo0PRgu8k6Y=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf</key>
 		<data>
@@ -706,7 +710,11 @@
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSShaders.metallib</key>
 		<data>
-		CvpKIVxQVtN5amW2yxhQduG/TfI=
+		lYsarhFZiUlC3UCzU+2jbsV4s30=
+		</data>
+		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSShadersSim.metallib</key>
+		<data>
+		bHcmtGTsiZarNuPprlTa4OOAbaQ=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png</key>
 		<data>
@@ -722,7 +730,7 @@
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist</key>
 		<data>
-		54ifXf64hiEUfzMdKtbv1qReyBQ=
+		MB8yb6FUlL4ZRHl8EUCwuZ8xU7g=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf</key>
 		<data>
@@ -795,7 +803,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aCGXQI8CceG6V6ol6lZpn+xEO18=
+			1WXJdseg4LVPpUrAIbaFXL0iRU4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1182,7 +1190,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lr/iJTMM7V7gPV5Dsxn0fcdtkUA=
+			O5DfgysQJzzCd7j2eGrgqbwT+hk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1235,7 +1243,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S9njFdXfuGJAMhGyZcZYt7NI2o0=
+			FvbEHa5MMK/3afAYEmgy33H+mRM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1316,7 +1324,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gEVwxbj/miOHxRU7VePK8B/BNSM=
+			sJHCPhWQxAWGu4lVlTzB+DoIegc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1352,7 +1360,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hJHQimxffwCObZrgPVGUGfI9SEg=
+			xVreJku1CfVa61YyrPDj4xCzYAo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1395,7 +1403,7 @@
 		</dict>
 		<key>GoogleMaps.bundle/Info.plist</key>
 		<data>
-		i5F36hew4PXrEOQOaclERWNwL8o=
+		0WKH8d2wctB93EUHM5ZzVaacpaE=
 		</data>
 		<key>GoogleMaps.bundle/bubble_left.png</key>
 		<data>
@@ -1447,7 +1455,7 @@
 		</data>
 		<key>GoogleMaps.bundle/oss_licenses_maps.txt.gz</key>
 		<data>
-		IZVf8GIuw67UbpFVkM0iaezAfEQ=
+		6Xf2/X7O6OK+/Rim4AHs2r9UbWU=
 		</data>
 		<key>GooglePlaces.bundle/Info.plist</key>
 		<data>
@@ -1968,11 +1976,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3xmcirUxVN5dBGClHMvdCwQ4hLA=
+		PLxQJ2L/hQ0gAJqi1mMOJ87Nm9U=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SU5QYx86gL4h1K+62EiEZNUnsI0=
+		3S2PFNxVdrDuvGHy0Tx+naVrtpg=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1980,11 +1988,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SU5QYx86gL4h1K+62EiEZNUnsI0=
+		3S2PFNxVdrDuvGHy0Tx+naVrtpg=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YYwojO83ns8OdFUl8DV5As3m0ew=
+		liJAwzfI7GQld5V+Nc0MB0Q2F9E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3932,6 +3940,13 @@
 			HxI2BXkVc3+bvtqSKJ2Jzwb4uvaGv2RAlmA7DXpSpO8=
 			</data>
 		</dict>
+		<key>GoogleMaps.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iLLuGPkEJx91Z9FAY2ur2kzJi9wGr/mirhf5zsb0xEQ=
+			</data>
+		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<dict>
 			<key>hash2</key>
@@ -3957,14 +3972,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ua/Wl7HjODpxIVDWHdmFkw6F3ByLBLKGfCL0Wek5zLA=
+			SdCHFcwUWcOn+6S2pVcKPWo5J1cOtjjALFOZ8D4dur0=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j2c3V7h3gyvjNCbexlH+p6VFVTSH99TjTWF/ixRU1Ls=
+			4a8J/cctw/g+RkZ5P2BT07TGzV7VDfVIzC7CFQmEhMg=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf</key>
@@ -4020,7 +4035,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6m3AhfWakkKA124tQxMWsbZZCrUS63JDHPS6Hvdc9UI=
+			CBXORozcDfIG1kolJ6u+tuWOIt1qXNsxf3XNFQwGcu0=
+			</data>
+		</dict>
+		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSShadersSim.metallib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vCGlRS+4MbUb7zzFx/wj+QN5Cvg1C0u8QKLsBYP22Nc=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png</key>
@@ -4048,7 +4070,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M/i/LKdw9ZjW9SVCgBaHFlMnTJ4V8XjZW9X1yvd74vU=
+			JG+GPcyUNFLGaGSce4ZMrBqaFbDpUvXd3cs5FDdTMGw=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf</key>
@@ -4152,7 +4174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oPJNv7H4WSuFoYK7eejNgb/XAKoKU3KtvnVzUYairZo=
+			0akfBfrtBwmJYhF6g/WlRnYJE+CfUj8SuRDor4qsfwg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4647,7 +4669,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K7VMI6cOtdN/KGMdl5skO2BBSGErAeIa49sNoqJR6y4=
+			xOM7UCAMDBnqYRGp7f+gdgw/C8gRFChnyoIXN6JLczc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4706,7 +4728,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+B5crTy8VuOwuLcfxGNA/bO75pB3C4CjHlJ3DOATtRc=
+			3nesSOIJHBcdn6fg4m4mrIFwUhp8yL1Pl0oi1m7YSyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4814,7 +4836,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8tCCYi9Yl0YnYWmOeOvY8stlPrs0P1Ykmu3VZKX+ZvE=
+			1ORDxXYkUdGJcnE9Tv+nQG5zZQINeEtjvjr1fTJITGw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4850,7 +4872,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C7crpYbUw8AOQhb9wpJaWi/B8UdKX92fMREVGsUv4yw=
+			2aiHx4UseFbXgwNRIMVD2sRio9L4fh13g8peWZiSKy4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4895,7 +4917,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VisPB9nCKknFc1cB8YfW9gfFxhhjXWszQXnYcgGCbnE=
+			Jj90DLacWkhk6bq/x7jHR5M0kyxm/3hFa8mQWMKOX6g=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/bubble_left.png</key>
@@ -4986,7 +5008,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9TC2FRAwDFeBLIrVhz6cm4bOmFBCM0t6ACV7txjrA8c=
+			4NEfWIMETFd+ykNEcy7FuCpm8sbBvp/v1Znta+pSp2o=
 			</data>
 		</dict>
 		<key>GooglePlaces.bundle/Info.plist</key>
@@ -5560,14 +5582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mhZmxN5X52RPUrE+w3kqcvWk0CHcP6ocTVEHHs8zbck=
+			rMcVqWeCmu8wY0MJ/nZ79OpV/I6G5/07TfFLRF+XRxw=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSXYLIkl9gTc3Py4jO6V5+ufm5LKU/4NkGbL857081Q=
+			AiOTY3TQA0pYbe2mUAB7RfREcMkEZ089msPOv1Q0wS0=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -5581,14 +5603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSXYLIkl9gTc3Py4jO6V5+ufm5LKU/4NkGbL857081Q=
+			AiOTY3TQA0pYbe2mUAB7RfREcMkEZ089msPOv1Q0wS0=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o1KQU/bP/NKDOIxzkqvxlNhIXRM+2h4ZaJlIKDvhGpQ=
+			L035+7+8Ow0aenFMImFwRccI5Sph2d6EiWcy32/6bhI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1206,6 +1206,7 @@ public struct Geolocation : Swift.Codable {
   public let cityName: Swift.String?
   public let areaName: Swift.String?
   public let streetName: Swift.String?
+  public init(id: Swift.Double?, longitude: Swift.Double?, latitude: Swift.Double?, govName: Swift.String?, cityName: Swift.String?, areaName: Swift.String?, streetName: Swift.String?)
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
