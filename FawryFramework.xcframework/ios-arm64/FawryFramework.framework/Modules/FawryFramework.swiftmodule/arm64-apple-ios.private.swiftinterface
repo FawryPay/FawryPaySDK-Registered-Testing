@@ -625,7 +625,6 @@ public struct KeyDetails : Swift.Codable {
   public var nameToDisplay: Swift.String {
     get
   }
-  public init(id: Swift.Int?, code: Swift.String?, namePrimaryLang: Swift.String?, nameSecondaryLang: Swift.String?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -669,7 +668,6 @@ public class AddressList : Swift.Codable {
     get
   }
   public init(isDefault: Swift.Bool?, id: Swift.Int?, governorate: Any?, city: Any?, area: Any?, street: Any?, isDefaultAddress: Swift.Bool?, receiverName: Swift.String?, latitude: Swift.Double?, longitude: Swift.Double?, receiverMobile: Swift.String?, building: Swift.String?, floor: Swift.String?, apartment: Swift.String?, landmark: Swift.String?, addressType: Swift.String?, geolocation: FawryFramework.Geolocation? = nil)
-  convenience public init(isDefault: Swift.Bool?, id: Swift.Int?, governorate: Any?, city: Any?, area: Any?, street: Any?, isDefaultAddress: Swift.Bool?, receiverName: Swift.String?, latitude: Swift.Double?, longitude: Swift.Double?, receiverMobile: Swift.String?, building: Swift.String?, floor: Swift.String?, apartment: Swift.String?, landmark: Swift.String?, addressType: FawryFramework.KeyDetails?, geolocation: FawryFramework.Geolocation? = nil)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -1206,7 +1204,6 @@ public struct Geolocation : Swift.Codable {
   public let cityName: Swift.String?
   public let areaName: Swift.String?
   public let streetName: Swift.String?
-  public init(id: Swift.Double?, longitude: Swift.Double?, latitude: Swift.Double?, govName: Swift.String?, cityName: Swift.String?, areaName: Swift.String?, streetName: Swift.String?)
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
