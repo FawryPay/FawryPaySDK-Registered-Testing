@@ -40891,7 +40891,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:cities:)",
+            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:cities:id:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40977,11 +40977,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework11GovernorateC4code4name0E11PrimaryLang0e9SecondaryG06citiesACSSSg_A3ISayAA4CityCGSgtcfc",
-            "mangledName": "$s14FawryFramework11GovernorateC4code4name0E11PrimaryLang0e9SecondaryG06citiesACSSSg_A3ISayAA4CityCGSgtcfc",
+            "usr": "s:14FawryFramework11GovernorateC4code4name0E11PrimaryLang0e9SecondaryG06cities2idACSSSg_A3JSayAA4CityCGSgSiSgtcfc",
+            "mangledName": "$s14FawryFramework11GovernorateC4code4name0E11PrimaryLang0e9SecondaryG06cities2idACSSSg_A3JSayAA4CityCGSgSiSgtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -41076,7 +41091,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:area:)",
+            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:area:id:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -41166,11 +41181,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework4CityC4code4name0E11PrimaryLang0e9SecondaryG04areaACSSSg_A3ISayAA4AreaCGSgtcfc",
-            "mangledName": "$s14FawryFramework4CityC4code4name0E11PrimaryLang0e9SecondaryG04areaACSSSg_A3ISayAA4AreaCGSgtcfc",
+            "usr": "s:14FawryFramework4CityC4code4name0E11PrimaryLang0e9SecondaryG04area2idACSSSg_A3JSayAA4AreaCGSgSiSgtcfc",
+            "mangledName": "$s14FawryFramework4CityC4code4name0E11PrimaryLang0e9SecondaryG04area2idACSSSg_A3JSayAA4AreaCGSgSiSgtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -41265,7 +41295,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:street:)",
+            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:street:id:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -41355,11 +41385,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework4AreaC4code4name0E11PrimaryLang0e9SecondaryG06streetACSSSg_A3ISayAA6StreetCGSgtcfc",
-            "mangledName": "$s14FawryFramework4AreaC4code4name0E11PrimaryLang0e9SecondaryG06streetACSSSg_A3ISayAA6StreetCGSgtcfc",
+            "usr": "s:14FawryFramework4AreaC4code4name0E11PrimaryLang0e9SecondaryG06street2idACSSSg_A3JSayAA6StreetCGSgSiSgtcfc",
+            "mangledName": "$s14FawryFramework4AreaC4code4name0E11PrimaryLang0e9SecondaryG06street2idACSSSg_A3JSayAA6StreetCGSgSiSgtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -45804,158 +45849,7 @@
           {
             "kind": "Function",
             "name": "editAddress",
-            "printedName": "editAddress(editAddressModel:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "EditAddressModel",
-                "printedName": "FawryFramework.EditAddressModel",
-                "usr": "s:14FawryFramework16EditAddressModelV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LaunchMerchantModel",
-                "printedName": "FawryFramework.LaunchMerchantModel",
-                "usr": "s:14FawryFramework19LaunchMerchantModelC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FawryFramework.FawryLaunchModel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FawryLaunchModel",
-                    "printedName": "FawryFramework.FawryLaunchModel",
-                    "usr": "s:14FawryFramework0A11LaunchModelC"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FawryFramework.FawryError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FawryFramework.FawryError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FawryError",
-                        "printedName": "FawryFramework.FawryError",
-                        "usr": "c:@M@FawryFramework@objc(cs)FawryError"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Any?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14FawryFramework0B6HelperC11editAddress0dE5Model7baseURL11appLanguage8merchant06launchF06isMock11orderRefNum10errorBlock16onSuccessHandleryAA04EditeF0V_SSSgApA014LaunchMerchantF0CAA0axF0CSgSbAPyAA0A5ErrorCSgcyypSgctF",
-            "mangledName": "$s14FawryFramework0B6HelperC11editAddress0dE5Model7baseURL11appLanguage8merchant06launchF06isMock11orderRefNum10errorBlock16onSuccessHandleryAA04EditeF0V_SSSgApA014LaunchMerchantF0CAA0axF0CSgSbAPyAA0A5ErrorCSgcyypSgctF",
-            "moduleName": "FawryFramework",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addAddress",
-            "printedName": "addAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
+            "printedName": "editAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -46200,6 +46094,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "FawryFramework.AddressMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressMode",
+                    "printedName": "FawryFramework.AddressMode",
+                    "usr": "s:14FawryFramework11AddressModeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
                   {
@@ -46323,8 +46232,403 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ07baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A2_ypSgAA11GeolocationVSgA3_A3_A3_SSSgA7_A7_A7_A7_A7_SbSgA7_A7_SiSgA7_A7_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA7_yAA0A5ErrorCSgcyA3_ctF",
-            "mangledName": "$s14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ07baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A2_ypSgAA11GeolocationVSgA3_A3_A3_SSSgA7_A7_A7_A7_A7_SbSgA7_A7_SiSgA7_A7_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA7_yAA0A5ErrorCSgcyA3_ctF",
+            "usr": "s:14FawryFramework0B6HelperC11editAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
+            "mangledName": "$s14FawryFramework0B6HelperC11editAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAddress",
+            "printedName": "addAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.Geolocation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Geolocation",
+                    "printedName": "FawryFramework.Geolocation",
+                    "usr": "s:14FawryFramework11GeolocationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.AddressMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressMode",
+                    "printedName": "FawryFramework.AddressMode",
+                    "usr": "s:14FawryFramework11AddressModeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LaunchMerchantModel",
+                "printedName": "FawryFramework.LaunchMerchantModel",
+                "usr": "s:14FawryFramework19LaunchMerchantModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.FawryLaunchModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FawryLaunchModel",
+                    "printedName": "FawryFramework.FawryLaunchModel",
+                    "usr": "s:14FawryFramework0A11LaunchModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FawryFramework.FawryError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryFramework.FawryError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FawryError",
+                        "printedName": "FawryFramework.FawryError",
+                        "usr": "c:@M@FawryFramework@objc(cs)FawryError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
+            "mangledName": "$s14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -46334,7 +46638,7 @@
           {
             "kind": "Function",
             "name": "addAddressTwo",
-            "printedName": "addAddressTwo(latitude:longitude:governorate:governorateId:city:cityId:area:areaId:street:streetId:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
+            "printedName": "addAddressTwo(latitude:longitude:governorate:governorateId:city:cityId:area:areaId:street:streetId:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -46624,6 +46928,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "FawryFramework.AddressMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressMode",
+                    "printedName": "FawryFramework.AddressMode",
+                    "usr": "s:14FawryFramework11AddressModeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
                   {
@@ -46747,8 +47066,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ07baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A5_SSSgA6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_SbSgA6_A6_SiSgA6_A6_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA6_yAA0A5ErrorCSgcyypSgctF",
-            "mangledName": "$s14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ07baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A5_SSSgA6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_SbSgA6_A6_SiSgA6_A6_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA6_yAA0A5ErrorCSgcyypSgctF",
+            "usr": "s:14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ00Y4Mode7baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A6_SSSgA7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_SbSgA7_A7_SiSgAA0E4ModeOSgA7_A7_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA7_yAA0A5ErrorCSgcyypSgctF",
+            "mangledName": "$s14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ00Y4Mode7baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A6_SSSgA7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_SbSgA7_A7_SiSgAA0E4ModeOSgA7_A7_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA7_yAA0A5ErrorCSgcyypSgctF",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -60382,6 +60701,125 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(id:longitude:latitude:govName:cityName:areaName:streetName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Geolocation",
+                "printedName": "FawryFramework.Geolocation",
+                "usr": "s:14FawryFramework11GeolocationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework11GeolocationV2id9longitude8latitude7govName04cityH004areaH006streetH0ACSdSg_A2KSSSgA3Ltcfc",
+            "mangledName": "$s14FawryFramework11GeolocationV2id9longitude8latitude7govName04cityH004areaH006streetH0ACSdSg_A2KSSSgA3Ltcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -71648,252 +72086,252 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1040,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1030,
+      "offset": 1067,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 1105,
       "length": 17,
       "value": "\"namePrimaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1156,
       "length": 19,
       "value": "\"nameSecondaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1198,
       "length": 16,
       "value": "\"cityDataModels\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1233,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1040,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1030,
+      "offset": 1067,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 1105,
       "length": 17,
       "value": "\"namePrimaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1156,
       "length": 19,
       "value": "\"nameSecondaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1198,
       "length": 16,
       "value": "\"cityDataModels\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1233,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2051,
+      "offset": 2125,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2078,
+      "offset": 2152,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2116,
+      "offset": 2190,
       "length": 17,
       "value": "\"namePrimaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2241,
       "length": 19,
       "value": "\"nameSecondaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2207,
+      "offset": 2281,
       "length": 16,
       "value": "\"areaDataModels\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2242,
+      "offset": 2316,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2051,
+      "offset": 2125,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2078,
+      "offset": 2152,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2116,
+      "offset": 2190,
       "length": 17,
       "value": "\"namePrimaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2241,
       "length": 19,
       "value": "\"nameSecondaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2207,
+      "offset": 2281,
       "length": 16,
       "value": "\"areaDataModels\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 2242,
+      "offset": 2316,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3107,
+      "offset": 3217,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3134,
+      "offset": 3244,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3172,
+      "offset": 3282,
       "length": 17,
       "value": "\"namePrimaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3333,
       "length": 19,
       "value": "\"nameSecondaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3265,
+      "offset": 3375,
       "length": 18,
       "value": "\"streetDataModels\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3412,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3107,
+      "offset": 3217,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3134,
+      "offset": 3244,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3172,
+      "offset": 3282,
       "length": 17,
       "value": "\"namePrimaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3333,
       "length": 19,
       "value": "\"nameSecondaryLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3265,
+      "offset": 3375,
       "length": 18,
       "value": "\"streetDataModels\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Shipping Details\/Models\/Governorate.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3412,
       "length": 4,
       "value": "\"id\""
     },
@@ -72824,77 +73262,77 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 30914,
+      "offset": 31737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 32771,
+      "offset": 34671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 35780,
+      "offset": 37807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 38135,
+      "offset": 40222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 39386,
+      "offset": 41473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 40575,
+      "offset": 42662,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 41695,
+      "offset": 43782,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 42881,
+      "offset": 44968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 44185,
+      "offset": 46272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 45498,
+      "offset": 47585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 46812,
+      "offset": 48899,
       "length": 5,
       "value": "false"
     },
@@ -75099,329 +75537,329 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 897,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 927,
       "length": 11,
       "value": "\"longitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 963,
       "length": 10,
       "value": "\"latitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 997,
       "length": 9,
       "value": "\"govName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 1024,
+      "offset": 1031,
       "length": 10,
       "value": "\"cityName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1066,
       "length": 10,
       "value": "\"areaName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 1096,
+      "offset": 1103,
       "length": 12,
       "value": "\"streetName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 897,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 927,
       "length": 11,
       "value": "\"longitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 963,
       "length": 10,
       "value": "\"latitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 997,
       "length": 9,
       "value": "\"govName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 1024,
+      "offset": 1031,
       "length": 10,
       "value": "\"cityName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1066,
       "length": 10,
       "value": "\"areaName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 1096,
+      "offset": 1103,
       "length": 12,
       "value": "\"streetName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2834,
+      "offset": 2841,
       "length": 10,
       "value": "\"latitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2870,
+      "offset": 2877,
       "length": 11,
       "value": "\"longitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2902,
+      "offset": 2909,
       "length": 6,
       "value": "\"city\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 2936,
       "length": 6,
       "value": "\"area\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 2965,
       "length": 8,
       "value": "\"street\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2998,
       "length": 10,
       "value": "\"building\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 3030,
       "length": 7,
       "value": "\"floor\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3056,
+      "offset": 3063,
       "length": 11,
       "value": "\"apartment\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
+      "offset": 3103,
       "length": 14,
       "value": "\"receiverName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3151,
       "length": 16,
       "value": "\"receiverMobile\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 3200,
       "length": 11,
       "value": "\"isDefault\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3239,
       "length": 14,
       "value": "\"address_type\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3279,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3311,
       "length": 13,
       "value": "\"governorate\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3341,
+      "offset": 3348,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3379,
+      "offset": 3386,
       "length": 13,
       "value": "\"addressType\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2834,
+      "offset": 2841,
       "length": 10,
       "value": "\"latitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2870,
+      "offset": 2877,
       "length": 11,
       "value": "\"longitude\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2902,
+      "offset": 2909,
       "length": 6,
       "value": "\"city\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 2936,
       "length": 6,
       "value": "\"area\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 2965,
       "length": 8,
       "value": "\"street\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2998,
       "length": 10,
       "value": "\"building\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 3030,
       "length": 7,
       "value": "\"floor\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3056,
+      "offset": 3063,
       "length": 11,
       "value": "\"apartment\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
+      "offset": 3103,
       "length": 14,
       "value": "\"receiverName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3151,
       "length": 16,
       "value": "\"receiverMobile\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 3200,
       "length": 11,
       "value": "\"isDefault\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3239,
       "length": 14,
       "value": "\"address_type\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3279,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3311,
       "length": 13,
       "value": "\"governorate\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3341,
+      "offset": 3348,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 3379,
+      "offset": 3386,
       "length": 13,
       "value": "\"addressType\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/Address\/AddAddressParams.swift",
       "kind": "StringLiteral",
-      "offset": 2111,
+      "offset": 2118,
       "length": 16,
       "value": "\"FawryFramework.AddAddressParams\""
     },
