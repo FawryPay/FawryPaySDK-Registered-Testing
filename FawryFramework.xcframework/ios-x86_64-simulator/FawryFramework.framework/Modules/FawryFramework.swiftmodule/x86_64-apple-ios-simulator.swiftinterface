@@ -798,24 +798,59 @@ extension FawryFramework.NearbyAddressViewController : UIKit.UITableViewDelegate
 }
 public class Governorate : Swift.Codable {
   public init(code: Swift.String?, name: Swift.String?, namePrimaryLang: Swift.String?, nameSecondaryLang: Swift.String?, cities: [FawryFramework.City]? = nil, id: Swift.Int? = nil)
+  final public let code: Swift.String?
+  final public let name: Swift.String?
+  final public let namePrimaryLang: Swift.String?
+  final public let nameSecondaryLang: Swift.String?
+  public var cities: [FawryFramework.City]?
+  public var nameToDisplay: Swift.String {
+    get
+  }
+  public var id: Swift.Int?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
 public class City : Swift.Codable {
   public init(code: Swift.String? = nil, name: Swift.String? = nil, namePrimaryLang: Swift.String? = nil, nameSecondaryLang: Swift.String? = nil, area: [FawryFramework.Area]? = nil, id: Swift.Int? = nil)
+  public var code: Swift.String?
+  public var name: Swift.String?
+  public var namePrimaryLang: Swift.String?
+  public var nameSecondaryLang: Swift.String?
+  public var area: [FawryFramework.Area]?
+  public var nameToDisplay: Swift.String {
+    get
+  }
+  public var id: Swift.Int?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
 public class Area : Swift.Codable {
   public init(code: Swift.String? = nil, name: Swift.String? = nil, namePrimaryLang: Swift.String? = nil, nameSecondaryLang: Swift.String? = nil, street: [FawryFramework.Street]? = nil, id: Swift.Int? = nil)
+  public var code: Swift.String?
+  public var name: Swift.String?
+  public var namePrimaryLang: Swift.String?
+  public var nameSecondaryLang: Swift.String?
+  public var street: [FawryFramework.Street]?
+  public var nameToDisplay: Swift.String {
+    get
+  }
+  public var id: Swift.Int?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
 public class Street : Swift.Codable {
   public init(code: Swift.String? = nil, name: Swift.String? = nil, namePrimaryLang: Swift.String? = nil, nameSecondaryLang: Swift.String? = nil)
+  public var code: Swift.String?
+  public var name: Swift.String?
+  public var namePrimaryLang: Swift.String?
+  public var nameSecondaryLang: Swift.String?
+  public var nameToDisplay: Swift.String {
+    get
+  }
+  public var id: Swift.Int?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
