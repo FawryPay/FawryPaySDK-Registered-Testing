@@ -15645,6 +15645,943 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Courier",
+        "printedName": "Courier",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework7CourierC4codeSSSgvp",
+            "mangledName": "$s14FawryFramework7CourierC4codeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework7CourierC4codeSSSgvg",
+                "mangledName": "$s14FawryFramework7CourierC4codeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework7CourierC4nameSSSgvp",
+            "mangledName": "$s14FawryFramework7CourierC4nameSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework7CourierC4nameSSSgvg",
+                "mangledName": "$s14FawryFramework7CourierC4nameSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deliveryDataModelObjects",
+            "printedName": "deliveryDataModelObjects",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FawryFramework.DeliveryDataModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FawryFramework.DeliveryDataModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeliveryDataModel",
+                        "printedName": "FawryFramework.DeliveryDataModel",
+                        "usr": "s:14FawryFramework17DeliveryDataModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework7CourierC24deliveryDataModelObjectsSayAA08DeliveryeF0CGSgvp",
+            "mangledName": "$s14FawryFramework7CourierC24deliveryDataModelObjectsSayAA08DeliveryeF0CGSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[FawryFramework.DeliveryDataModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[FawryFramework.DeliveryDataModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeliveryDataModel",
+                            "printedName": "FawryFramework.DeliveryDataModel",
+                            "usr": "s:14FawryFramework17DeliveryDataModelC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework7CourierC24deliveryDataModelObjectsSayAA08DeliveryeF0CGSgvg",
+                "mangledName": "$s14FawryFramework7CourierC24deliveryDataModelObjectsSayAA08DeliveryeF0CGSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:name:deliveryDataModelObjects:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Courier",
+                "printedName": "FawryFramework.Courier",
+                "usr": "s:14FawryFramework7CourierC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FawryFramework.DeliveryDataModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeliveryDataModel",
+                    "printedName": "FawryFramework.DeliveryDataModel",
+                    "usr": "s:14FawryFramework17DeliveryDataModelC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework7CourierC4code4name24deliveryDataModelObjectsACSS_SSSayAA08DeliverygH0CGtcfc",
+            "mangledName": "$s14FawryFramework7CourierC4code4name24deliveryDataModelObjectsACSS_SSSayAA08DeliverygH0CGtcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Courier",
+                "printedName": "FawryFramework.Courier",
+                "usr": "s:14FawryFramework7CourierC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework7CourierC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14FawryFramework7CourierC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FawryFramework7CourierC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14FawryFramework7CourierC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14FawryFramework7CourierC",
+        "mangledName": "$s14FawryFramework7CourierC",
+        "moduleName": "FawryFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeliveryDataModel",
+        "printedName": "DeliveryDataModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC4nameSSSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC4nameSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC4nameSSSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC4nameSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shippingFees",
+            "printedName": "shippingFees",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC12shippingFeesSdSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC12shippingFeesSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC12shippingFeesSdSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC12shippingFeesSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC4codeSSSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC4codeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC4codeSSSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC4codeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cashOnDeliveryExtraFees",
+            "printedName": "cashOnDeliveryExtraFees",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC06cashOnC9ExtraFeesSdSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC06cashOnC9ExtraFeesSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC06cashOnC9ExtraFeesSdSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC06cashOnC9ExtraFeesSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "courierCode",
+            "printedName": "courierCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC11courierCodeSSSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC11courierCodeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC11courierCodeSSSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC11courierCodeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "codFeesViolatedAllowedRange",
+            "printedName": "codFeesViolatedAllowedRange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC27codFeesViolatedAllowedRangeSbSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC27codFeesViolatedAllowedRangeSbSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC27codFeesViolatedAllowedRangeSbSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC27codFeesViolatedAllowedRangeSbSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalAmount",
+            "printedName": "totalAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC11totalAmountSdSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC11totalAmountSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC11totalAmountSdSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC11totalAmountSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tax",
+            "printedName": "tax",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework17DeliveryDataModelC3taxSdSgvp",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC3taxSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework17DeliveryDataModelC3taxSdSgvg",
+                "mangledName": "$s14FawryFramework17DeliveryDataModelC3taxSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeliveryDataModel",
+                "printedName": "FawryFramework.DeliveryDataModel",
+                "usr": "s:14FawryFramework17DeliveryDataModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework17DeliveryDataModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FawryFramework17DeliveryDataModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14FawryFramework17DeliveryDataModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14FawryFramework17DeliveryDataModelC",
+        "mangledName": "$s14FawryFramework17DeliveryDataModelC",
+        "moduleName": "FawryFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -59916,6 +60853,1402 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CustomerLoyaltyInfo",
+        "printedName": "CustomerLoyaltyInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerLoyaltyInfo",
+                "printedName": "FawryFramework.CustomerLoyaltyInfo",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoVACycfc",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoVACycfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV2idSdSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV2idSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV2idSdSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV2idSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerName",
+            "printedName": "customerName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV12customerNameSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV12customerNameSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV12customerNameSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV12customerNameSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalOrdersCount",
+            "printedName": "totalOrdersCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV16totalOrdersCountSiSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV16totalOrdersCountSiSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV16totalOrdersCountSiSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV16totalOrdersCountSiSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalOrdersAmt",
+            "printedName": "totalOrdersAmt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV14totalOrdersAmtSdSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV14totalOrdersAmtSdSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV14totalOrdersAmtSdSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV14totalOrdersAmtSdSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creditCardEnabled",
+            "printedName": "creditCardEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV17creditCardEnabledSbSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV17creditCardEnabledSbSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV17creditCardEnabledSbSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV17creditCardEnabledSbSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthDate",
+            "printedName": "birthDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV9birthDateSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV9birthDateSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV9birthDateSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV9birthDateSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "walletAccounts",
+            "printedName": "walletAccounts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FawryFramework.WalletAccounts]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FawryFramework.WalletAccounts]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletAccounts",
+                        "printedName": "FawryFramework.WalletAccounts",
+                        "usr": "s:14FawryFramework14WalletAccountsC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV14walletAccountsSayAA06WalletG0CGSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV14walletAccountsSayAA06WalletG0CGSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[FawryFramework.WalletAccounts]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[FawryFramework.WalletAccounts]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WalletAccounts",
+                            "printedName": "FawryFramework.WalletAccounts",
+                            "usr": "s:14FawryFramework14WalletAccountsC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV14walletAccountsSayAA06WalletG0CGSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV14walletAccountsSayAA06WalletG0CGSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerTypeCode",
+            "printedName": "customerTypeCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV16customerTypeCodeSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV16customerTypeCodeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV16customerTypeCodeSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV16customerTypeCodeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV6genderSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV6genderSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV6genderSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV6genderSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationsPreferredLang",
+            "printedName": "notificationsPreferredLang",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV26notificationsPreferredLangSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV26notificationsPreferredLangSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV26notificationsPreferredLangSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV26notificationsPreferredLangSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV5tokenSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV5tokenSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV5tokenSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV5tokenSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV10statusCodeSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV10statusCodeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV10statusCodeSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV10statusCodeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusLabel",
+            "printedName": "statusLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV11statusLabelSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV11statusLabelSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV11statusLabelSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV11statusLabelSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generatedInvitationCode",
+            "printedName": "generatedInvitationCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV23generatedInvitationCodeSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV23generatedInvitationCodeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV23generatedInvitationCodeSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV23generatedInvitationCodeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerAddresses",
+            "printedName": "customerAddresses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FawryFramework.AddressList]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FawryFramework.AddressList]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AddressList",
+                        "printedName": "FawryFramework.AddressList",
+                        "usr": "s:14FawryFramework11AddressListC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV17customerAddressesSayAA11AddressListCGSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV17customerAddressesSayAA11AddressListCGSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[FawryFramework.AddressList]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[FawryFramework.AddressList]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AddressList",
+                            "printedName": "FawryFramework.AddressList",
+                            "usr": "s:14FawryFramework11AddressListC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV17customerAddressesSayAA11AddressListCGSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV17customerAddressesSayAA11AddressListCGSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cif",
+            "printedName": "cif",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV3cifSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV3cifSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV3cifSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV3cifSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userName",
+            "printedName": "userName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV8userNameSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV8userNameSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV8userNameSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV8userNameSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileNumber",
+            "printedName": "mobileNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV12mobileNumberSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV12mobileNumberSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV12mobileNumberSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV12mobileNumberSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV5emailSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV5emailSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV5emailSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV5emailSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "merchantAccountNumber",
+            "printedName": "merchantAccountNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV21merchantAccountNumberSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV21merchantAccountNumberSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV21merchantAccountNumberSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV21merchantAccountNumberSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userType",
+            "printedName": "userType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV8userTypeSSSgvp",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV8userTypeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV8userTypeSSSgvg",
+                "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV8userTypeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerLoyaltyInfo",
+                "printedName": "FawryFramework.CustomerLoyaltyInfo",
+                "usr": "s:14FawryFramework19CustomerLoyaltyInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FawryFramework19CustomerLoyaltyInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14FawryFramework19CustomerLoyaltyInfoV",
+        "mangledName": "$s14FawryFramework19CustomerLoyaltyInfoV",
+        "moduleName": "FawryFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WalletAccounts",
         "printedName": "WalletAccounts",
         "children": [
@@ -67573,7 +69906,7 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "Dictionary",
-      "offset": 7715,
+      "offset": 15650,
       "length": 3,
       "value": "[]"
     },
@@ -71087,42 +73420,42 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Billing Details\/Model\/Courier.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 407,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Billing Details\/Model\/Courier.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 434,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Billing Details\/Model\/Courier.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 481,
       "length": 19,
       "value": "\"deliveryDataModel\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Billing Details\/Model\/Courier.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 407,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Billing Details\/Model\/Courier.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 434,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Merchant\/Billing Details\/Model\/Courier.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 481,
       "length": 19,
       "value": "\"deliveryDataModel\""
     },
@@ -77142,490 +79475,490 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
+      "offset": 1892,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1925,
       "length": 14,
       "value": "\"customerName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1972,
       "length": 18,
       "value": "\"totalOrdersCount\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1869,
+      "offset": 2021,
       "length": 16,
       "value": "\"totalOrdersAmt\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 2071,
       "length": 19,
       "value": "\"creditCardEnabled\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
+      "offset": 2116,
       "length": 11,
       "value": "\"birthDate\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 2158,
       "length": 16,
       "value": "\"walletAccounts\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2055,
+      "offset": 2207,
       "length": 18,
       "value": "\"customerTypeCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2096,
+      "offset": 2248,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2147,
+      "offset": 2299,
       "length": 28,
       "value": "\"notificationsPreferredLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2197,
+      "offset": 2349,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2231,
+      "offset": 2383,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2423,
       "length": 13,
       "value": "\"statusLabel\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2476,
       "length": 25,
       "value": "\"generatedInvitationCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2383,
+      "offset": 2535,
       "length": 19,
       "value": "\"customerAddresses\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2422,
+      "offset": 2574,
       "length": 5,
       "value": "\"cif\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2604,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2491,
+      "offset": 2643,
       "length": 14,
       "value": "\"mobileNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 2679,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2724,
       "length": 23,
       "value": "\"merchantAccountNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2772,
       "length": 10,
       "value": "\"userType\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
+      "offset": 1892,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1925,
       "length": 14,
       "value": "\"customerName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1972,
       "length": 18,
       "value": "\"totalOrdersCount\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1869,
+      "offset": 2021,
       "length": 16,
       "value": "\"totalOrdersAmt\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 2071,
       "length": 19,
       "value": "\"creditCardEnabled\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
+      "offset": 2116,
       "length": 11,
       "value": "\"birthDate\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 2158,
       "length": 16,
       "value": "\"walletAccounts\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2055,
+      "offset": 2207,
       "length": 18,
       "value": "\"customerTypeCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2096,
+      "offset": 2248,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2147,
+      "offset": 2299,
       "length": 28,
       "value": "\"notificationsPreferredLang\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2197,
+      "offset": 2349,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2231,
+      "offset": 2383,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2423,
       "length": 13,
       "value": "\"statusLabel\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2476,
       "length": 25,
       "value": "\"generatedInvitationCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2383,
+      "offset": 2535,
       "length": 19,
       "value": "\"customerAddresses\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2422,
+      "offset": 2574,
       "length": 5,
       "value": "\"cif\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2604,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2491,
+      "offset": 2643,
       "length": 14,
       "value": "\"mobileNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 2679,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2724,
       "length": 23,
       "value": "\"merchantAccountNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2772,
       "length": 10,
       "value": "\"userType\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6101,
+      "offset": 6260,
       "length": 17,
       "value": "\"accountTypeCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6144,
+      "offset": 6303,
       "length": 11,
       "value": "\"accountId\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6185,
+      "offset": 6344,
       "length": 15,
       "value": "\"accountNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6239,
+      "offset": 6398,
       "length": 24,
       "value": "\"accountNumberEncrypted\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6292,
+      "offset": 6451,
       "length": 14,
       "value": "\"accountAlias\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6335,
+      "offset": 6494,
       "length": 14,
       "value": "\"currencyCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6373,
+      "offset": 6532,
       "length": 9,
       "value": "\"enabled\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6406,
+      "offset": 6565,
       "length": 9,
       "value": "\"balance\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6449,
+      "offset": 6608,
       "length": 19,
       "value": "\"accountStatusCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6544,
+      "offset": 6703,
       "length": 14,
       "value": "\"merchantCard\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6577,
+      "offset": 6736,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6602,
+      "offset": 6761,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6633,
+      "offset": 6792,
       "length": 10,
       "value": "\"selected\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6666,
+      "offset": 6825,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6101,
+      "offset": 6260,
       "length": 17,
       "value": "\"accountTypeCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6144,
+      "offset": 6303,
       "length": 11,
       "value": "\"accountId\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6185,
+      "offset": 6344,
       "length": 15,
       "value": "\"accountNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6239,
+      "offset": 6398,
       "length": 24,
       "value": "\"accountNumberEncrypted\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6292,
+      "offset": 6451,
       "length": 14,
       "value": "\"accountAlias\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6335,
+      "offset": 6494,
       "length": 14,
       "value": "\"currencyCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6373,
+      "offset": 6532,
       "length": 9,
       "value": "\"enabled\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6406,
+      "offset": 6565,
       "length": 9,
       "value": "\"balance\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6449,
+      "offset": 6608,
       "length": 19,
       "value": "\"accountStatusCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6544,
+      "offset": 6703,
       "length": 14,
       "value": "\"merchantCard\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6577,
+      "offset": 6736,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6602,
+      "offset": 6761,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6633,
+      "offset": 6792,
       "length": 10,
       "value": "\"selected\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6666,
+      "offset": 6825,
       "length": 8,
       "value": "\"enable\""
     },

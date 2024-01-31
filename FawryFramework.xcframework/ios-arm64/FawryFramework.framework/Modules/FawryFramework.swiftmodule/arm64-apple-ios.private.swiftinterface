@@ -284,6 +284,28 @@ extension UIKit.UIViewController {
     get
   }
 }
+public class Courier : Swift.Codable {
+  final public let code: Swift.String?
+  final public let name: Swift.String?
+  final public let deliveryDataModelObjects: [FawryFramework.DeliveryDataModel]?
+  public init(code: Swift.String, name: Swift.String, deliveryDataModelObjects: [FawryFramework.DeliveryDataModel])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class DeliveryDataModel : Swift.Codable {
+  final public let name: Swift.String?
+  final public let shippingFees: Swift.Double?
+  final public let code: Swift.String?
+  final public let cashOnDeliveryExtraFees: Swift.Double?
+  final public let courierCode: Swift.String?
+  final public let codFeesViolatedAllowedRange: Swift.Bool?
+  final public let totalAmount: Swift.Double?
+  final public let tax: Swift.Double?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public class RadioCheckboxBaseContainer<T> where T : FawryFramework.RadioCheckboxBaseButton {
   public typealias Kind = T
   public init(_ buttons: [T] = [])
@@ -1184,6 +1206,32 @@ extension FawryFramework.PaymentDetailsViewController : FawryFramework.RadioButt
 }
 extension FawryFramework.PaymentDetailsViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
+public struct CustomerLoyaltyInfo : Swift.Codable {
+  public init()
+  public let id: Swift.Double?
+  public let customerName: Swift.String?
+  public let totalOrdersCount: Swift.Int?
+  public let totalOrdersAmt: Swift.Double?
+  public let creditCardEnabled: Swift.Bool?
+  public let birthDate: Swift.String?
+  public let walletAccounts: [FawryFramework.WalletAccounts]?
+  public let customerTypeCode: Swift.String?
+  public let gender: Swift.String?
+  public let notificationsPreferredLang: Swift.String?
+  public let token: Swift.String?
+  public let statusCode: Swift.String?
+  public let statusLabel: Swift.String?
+  public let generatedInvitationCode: Swift.String?
+  public let customerAddresses: [FawryFramework.AddressList]?
+  public let cif: Swift.String?
+  public let userName: Swift.String?
+  public let mobileNumber: Swift.String?
+  public let email: Swift.String?
+  public let merchantAccountNumber: Swift.String?
+  public let userType: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class WalletAccounts : Swift.Codable {
   final public let accountTypeCode: Swift.String?
