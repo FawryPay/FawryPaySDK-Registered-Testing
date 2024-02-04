@@ -422,11 +422,11 @@
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/objects-13.0+.nib</key>
 		<data>
-		axVQI35kxAIEGauPvqbgi8rBc04=
+		0djBBDCCdBWrtrbCFKYpI3+lAKU=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/runtime.nib</key>
 		<data>
-		yHZmnGninHg233VrosEE+2vevPE=
+		uYKKHvdqw8TrCNKFc61kjdPN3YY=
 		</data>
 		<key>Base.lproj/MultipleTextInputTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -502,11 +502,11 @@
 		</data>
 		<key>Base.lproj/TextInputTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		JjfrAoe79VTKxc+4aI/m4Ql1fMg=
+		Fv3XfwKJvcrgvMWgkt1WABxS9DI=
 		</data>
 		<key>Base.lproj/TextInputTableViewCell.nib/runtime.nib</key>
 		<data>
-		D6zoNlcHuesk9g4BDaSvIZj0a00=
+		jPFMBgInbRcB8VOKfy8e9oxOji0=
 		</data>
 		<key>Base.lproj/TotalPointsHeader.nib/objects-13.0+.nib</key>
 		<data>
@@ -1940,7 +1940,7 @@
 		</dict>
 		<key>Headers/FawryFramework-Swift.h</key>
 		<data>
-		ONsMNcFYJD/Ns3OvZGxCcEbKdUw=
+		yuiZCQBhSyPwQD9cT3/xvhofkO4=
 		</data>
 		<key>Headers/FawryFramework.h</key>
 		<data>
@@ -1976,7 +1976,7 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		q5y98fBymdhpggtI3P5/HERtQM0=
+		mJYELPfLYkm7dq5nMCUNRUr5hkc=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1992,7 +1992,7 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Pns2aGfHBGpprTEzKp9RutLvGeY=
+		suX20LWZxEgqPbRkUOEcz0F1ZIo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3531,14 +3531,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1LztCUcuOnjDuxXecCzS1gNRKRKwP88Rm5o0MApusOM=
+			PrYmKpmJFdbUxjFrlF6nzE82vrfBB6jynONurf8VUU8=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ImVIfnwjECsCwNKA6gQogQwaHXKO4u1kZjWvZoC7bI=
+			IOQ+kkJhEtGmgQ3bxyFsZHA5DdRD4KuNmLmA1sdlXKU=
 			</data>
 		</dict>
 		<key>Base.lproj/MultipleTextInputTableViewCell.nib/objects-13.0+.nib</key>
@@ -3671,14 +3671,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VE2OIe0+q+R6L/c7CleRrmUhFbbtVDw6cKeQ6mjANqc=
+			odHy2f28JKOcYiLgi4PwWA2OsWNUqXffDj4ETnNmARU=
 			</data>
 		</dict>
 		<key>Base.lproj/TextInputTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5skxtHTYJUePLgSwNag730r6f+I+pxTxO9WgywJQbw=
+			eqv9zKurX0GTnyP+eAcw9PL5d0cGJfiHS6rqs9IZ6fM=
 			</data>
 		</dict>
 		<key>Base.lproj/TotalPointsHeader.nib/objects-13.0+.nib</key>
@@ -5526,7 +5526,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+Q8ySN3gJM2r9v7YLSFO+HxI6WoqO7RDfO60SO5dmM=
+			q+70Btq1REnAc/pPlfQlipQKEaW0q4jVzTglR2gRWQg=
 			</data>
 		</dict>
 		<key>Headers/FawryFramework.h</key>
@@ -5582,7 +5582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKiJ+q1scSHxXoQnCHkYrMAzIbndb6NwP241k/d1H00=
+			WhG2P6EVH8dPQCiJQC1pwE7JETG6zY9TYRKglicMNZE=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -5610,7 +5610,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YhuDpONR5b5ur/a2AZcWTgcTqp81PRmrT1grvPxoIIA=
+			e3HwR4sawVXi6wYBqEggFvl4KcmUrkTgpD1blBtXVhs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

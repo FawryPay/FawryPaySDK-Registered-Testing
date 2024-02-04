@@ -79483,9 +79483,16 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1921,
+      "offset": 2000,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 34317,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",
