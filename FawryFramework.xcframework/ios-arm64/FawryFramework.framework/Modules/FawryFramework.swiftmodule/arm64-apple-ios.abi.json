@@ -2124,7 +2124,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(customer:merchant:chargeItems:showTipsView:skipReceipt:showVoucherContainer:showLoyaltyContainer:)",
+            "printedName": "init(customer:merchant:chargeItems:showTipsView:skipReceipt:showVoucherContainer:showLoyaltyContainer:shippingAddress:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2239,11 +2239,26 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryFramework.AddressList?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddressList",
+                    "printedName": "FawryFramework.AddressList",
+                    "usr": "s:14FawryFramework11AddressListC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework0A11LaunchModelC8customer8merchant11chargeItems12showTipsView11skipReceipt0I16VoucherContainer0i7LoyaltyO0AcA0c8CustomerD0CSg_AA0c8MerchantD0CSgSayAA06Chargeh6ParamsD0CGSgSbSgA3Utcfc",
-            "mangledName": "$s14FawryFramework0A11LaunchModelC8customer8merchant11chargeItems12showTipsView11skipReceipt0I16VoucherContainer0i7LoyaltyO0AcA0c8CustomerD0CSg_AA0c8MerchantD0CSgSayAA06Chargeh6ParamsD0CGSgSbSgA3Utcfc",
+            "usr": "s:14FawryFramework0A11LaunchModelC8customer8merchant11chargeItems12showTipsView11skipReceipt0I16VoucherContainer0i7LoyaltyO015shippingAddressAcA0c8CustomerD0CSg_AA0c8MerchantD0CSgSayAA06Chargeh6ParamsD0CGSgSbSgA3vA0R4ListCSgtcfc",
+            "mangledName": "$s14FawryFramework0A11LaunchModelC8customer8merchant11chargeItems12showTipsView11skipReceipt0I16VoucherContainer0i7LoyaltyO015shippingAddressAcA0c8CustomerD0CSg_AA0c8MerchantD0CSgSayAA06Chargeh6ParamsD0CGSgSbSgA3vA0R4ListCSgtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -69906,7 +69921,7 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "Dictionary",
-      "offset": 15650,
+      "offset": 15727,
       "length": 3,
       "value": "[]"
     },
@@ -70095,14 +70110,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/Launch Model\/FawryLaunchModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2280,
+      "offset": 2380,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/Launch Model\/FawryLaunchModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2770,
+      "offset": 2870,
       "length": 5,
       "value": "false"
     },
@@ -76515,8 +76530,8 @@
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Address\/Constants\/ManageAddressWebConstants.swift",
       "kind": "StringLiteral",
       "offset": 410,
-      "length": 28,
-      "value": "\"fawrypay-api\/api\/couriers\/\""
+      "length": 27,
+      "value": "\"fawrypay-api\/api\/couriers\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/BNPL\/Presentation\/Valu\/ValuInstallmentPlans\/Controllers\/Cells\/ValuInstallmentPlansTableCellViewModel.swift",

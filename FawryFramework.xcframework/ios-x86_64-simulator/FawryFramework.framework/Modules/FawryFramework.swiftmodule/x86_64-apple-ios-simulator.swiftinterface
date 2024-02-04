@@ -41,7 +41,7 @@ public struct SavedCard : Swift.Codable {
 public class FawryLaunchModel {
   public var skipReceipt: Swift.Bool?
   public var addressMode: FawryFramework.AddressMode?
-  public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, showTipsView: Swift.Bool? = nil, skipReceipt: Swift.Bool? = nil, showVoucherContainer: Swift.Bool?, showLoyaltyContainer: Swift.Bool?)
+  public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, showTipsView: Swift.Bool? = nil, skipReceipt: Swift.Bool? = nil, showVoucherContainer: Swift.Bool?, showLoyaltyContainer: Swift.Bool?, shippingAddress: FawryFramework.AddressList? = nil)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?)
   public init(customer: FawryFramework.LaunchCustomerModel?, merchant: FawryFramework.LaunchMerchantModel?, chargeItems: [FawryFramework.ChargeItemsParamsModel]?, shippingAddress: FawryFramework.AddressList?, scheduledTime: Foundation.Date?, beId: Swift.String?, showTipsView: Swift.Bool = false)

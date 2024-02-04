@@ -1976,11 +1976,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BtsNbfIiRuOQ7K00HwgoxmBDPjI=
+		q5y98fBymdhpggtI3P5/HERtQM0=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gnfyjyrsTHILZk6kJk1vDwfsl68=
+		TxRrt4B5Vv3MQNDIoBPwddlo/go=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1988,11 +1988,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gnfyjyrsTHILZk6kJk1vDwfsl68=
+		TxRrt4B5Vv3MQNDIoBPwddlo/go=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QvsX1qeJ+YuLLkos+GE/92wgySo=
+		Pns2aGfHBGpprTEzKp9RutLvGeY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2482,7 +2482,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b+sjsX5MeyvjFqfOjdoAMA9MUbs=
+			XBp1o6I5lzsAXz2jeW7ECUyLLzs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2765,7 +2765,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HlPat547y+paWy2UD6vpctZwwlA=
+			ulltBrzQEWVmzop9ah99hEvvoXY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5582,14 +5582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			psT6bwjgl3qxf5Uemir6lqrX2FPp31/3zSPsRwAaGaU=
+			iKiJ+q1scSHxXoQnCHkYrMAzIbndb6NwP241k/d1H00=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A799TBjKDaZ3pRRaVSRSbFxRq3nDH8ghEsOWEEWp1ig=
+			C1DVrkskYuS/w2dMIKoI+9o7SUaFUsCLUNm2jRy/s/o=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -5603,14 +5603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A799TBjKDaZ3pRRaVSRSbFxRq3nDH8ghEsOWEEWp1ig=
+			C1DVrkskYuS/w2dMIKoI+9o7SUaFUsCLUNm2jRy/s/o=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PVcPt4JuDunA7MTIEPeL6FbWNNUCvk80wp9bLYtI5Hg=
+			YhuDpONR5b5ur/a2AZcWTgcTqp81PRmrT1grvPxoIIA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -6275,7 +6275,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kc+KVrXn8qAdkqdal/wenMEkp8JDv/QJSZTOPUP31ck=
+			ffIcvplpzI78MY4TGoCMS2uVS9uKsf1fEHmbbzgw28M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6561,7 +6561,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1KGT1MmVLAuw1O9jhBRxXHPA5x1oKpsmWVETetiiT5U=
+			kcsabZRhH84p4fQXhhzD7k+1g2uF27o0pu4T0Vh/KaM=
 			</data>
 			<key>optional</key>
 			<true/>
