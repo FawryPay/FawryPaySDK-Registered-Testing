@@ -623,7 +623,6 @@ SWIFT_CLASS("_TtC14FawryFramework28PaymentDetailsViewController")
 
 
 
-
 @interface PaymentDetailsViewController (SWIFT_EXTENSION(FawryFramework)) <UITextFieldDelegate>
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 @end

@@ -73512,7 +73512,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Address\/Views\/Address Table Cells\/Text Input\/TextInputCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1027,
+      "offset": 1057,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Address\/Views\/Address Table Cells\/Text Input\/TextInputCellViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1134,
       "length": 5,
       "value": "false"
     },
@@ -74191,14 +74198,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23438,
+      "offset": 23760,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23462,
+      "offset": 23784,
       "length": 5,
       "value": "false"
     },
@@ -79483,16 +79490,9 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2000,
+      "offset": 1965,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Payment Details\/Views\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 34317,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/ Loyalty Management\/Models\/CustomerLoyaltyInfo.swift",

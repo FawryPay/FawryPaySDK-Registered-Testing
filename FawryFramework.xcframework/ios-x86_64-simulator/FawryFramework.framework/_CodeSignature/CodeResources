@@ -1940,7 +1940,7 @@
 		</dict>
 		<key>Headers/FawryFramework-Swift.h</key>
 		<data>
-		yuiZCQBhSyPwQD9cT3/xvhofkO4=
+		ONsMNcFYJD/Ns3OvZGxCcEbKdUw=
 		</data>
 		<key>Headers/FawryFramework.h</key>
 		<data>
@@ -1976,7 +1976,7 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mJYELPfLYkm7dq5nMCUNRUr5hkc=
+		P+dSJuIj5Dv/MbAvbT3OKcVuFz4=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1992,7 +1992,7 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		suX20LWZxEgqPbRkUOEcz0F1ZIo=
+		ZPblaSRojsywcGXTtAeuVAODyb8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -5526,7 +5526,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q+70Btq1REnAc/pPlfQlipQKEaW0q4jVzTglR2gRWQg=
+			V+Q8ySN3gJM2r9v7YLSFO+HxI6WoqO7RDfO60SO5dmM=
 			</data>
 		</dict>
 		<key>Headers/FawryFramework.h</key>
@@ -5582,7 +5582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhG2P6EVH8dPQCiJQC1pwE7JETG6zY9TYRKglicMNZE=
+			edMGRi1esWNv6OxTmvAa+0CvaoS80tKKrVGJIcv9FfM=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -5610,7 +5610,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3HwR4sawVXi6wYBqEggFvl4KcmUrkTgpD1blBtXVhs=
+			6QwVEj7kYcPDj5k4wgKuZn5DcJqsIUkIGzxgZnXJVMo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
