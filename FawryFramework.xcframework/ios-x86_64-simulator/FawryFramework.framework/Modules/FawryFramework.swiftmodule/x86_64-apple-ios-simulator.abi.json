@@ -1240,9 +1240,229 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isDefault",
+            "printedName": "isDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework9SavedCardV9isDefaultSbSgvp",
+            "mangledName": "$s14FawryFramework9SavedCardV9isDefaultSbSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework9SavedCardV9isDefaultSbSgvg",
+                "mangledName": "$s14FawryFramework9SavedCardV9isDefaultSbSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework9SavedCardV9isDefaultSbSgvs",
+                "mangledName": "$s14FawryFramework9SavedCardV9isDefaultSbSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework9SavedCardV9isDefaultSbSgvM",
+                "mangledName": "$s14FawryFramework9SavedCardV9isDefaultSbSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultt",
+            "printedName": "defaultt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework9SavedCardV8defaulttSbSgvp",
+            "mangledName": "$s14FawryFramework9SavedCardV8defaulttSbSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework9SavedCardV8defaulttSbSgvg",
+                "mangledName": "$s14FawryFramework9SavedCardV8defaulttSbSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework9SavedCardV8defaulttSbSgvs",
+                "mangledName": "$s14FawryFramework9SavedCardV8defaulttSbSgvs",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework9SavedCardV8defaulttSbSgvM",
+                "mangledName": "$s14FawryFramework9SavedCardV8defaulttSbSgvM",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(brand:creationDate:lastFourDigits:token:cardNumber:cardExpiryMonth:cardExpiryYear:cvv:firstSixDigits:accountTypeCode:cardHolderName:)",
+            "printedName": "init(brand:creationDate:lastFourDigits:token:cardNumber:cardExpiryMonth:cardExpiryYear:cvv:firstSixDigits:accountTypeCode:cardHolderName:isDefault:defaultt:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1403,11 +1623,41 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework9SavedCardV5brand12creationDate14lastFourDigits5token10cardNumber0L11ExpiryMonth0lN4Year3cvv08firstSixJ015accountTypeCode0L10HolderNameACSSSg_s5Int64VSgA9Otcfc",
-            "mangledName": "$s14FawryFramework9SavedCardV5brand12creationDate14lastFourDigits5token10cardNumber0L11ExpiryMonth0lN4Year3cvv08firstSixJ015accountTypeCode0L10HolderNameACSSSg_s5Int64VSgA9Otcfc",
+            "usr": "s:14FawryFramework9SavedCardV5brand12creationDate14lastFourDigits5token10cardNumber0L11ExpiryMonth0lN4Year3cvv08firstSixJ015accountTypeCode0L10HolderName9isDefault8defaulttACSSSg_s5Int64VSgA9QSbSgAUtcfc",
+            "mangledName": "$s14FawryFramework9SavedCardV5brand12creationDate14lastFourDigits5token10cardNumber0L11ExpiryMonth0lN4Year3cvv08firstSixJ015accountTypeCode0L10HolderName9isDefault8defaulttACSSSg_s5Int64VSgA9QSbSgAUtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -1436,7 +1686,9 @@
             "usr": "s:14FawryFramework9SavedCardV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s14FawryFramework9SavedCardV4fromACs7Decoder_p_tKcfc",
             "moduleName": "FawryFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -1469,6 +1721,423 @@
         "declKind": "Struct",
         "usr": "s:14FawryFramework9SavedCardV",
         "mangledName": "$s14FawryFramework9SavedCardV",
+        "moduleName": "FawryFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeleteCardResponse",
+        "printedName": "DeleteCardResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework18DeleteCardResponseC10statusCodeSiSgvp",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC10statusCodeSiSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework18DeleteCardResponseC10statusCodeSiSgvg",
+                "mangledName": "$s14FawryFramework18DeleteCardResponseC10statusCodeSiSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusDescription",
+            "printedName": "statusDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework18DeleteCardResponseC17statusDescriptionSSSgvp",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC17statusDescriptionSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework18DeleteCardResponseC17statusDescriptionSSSgvg",
+                "mangledName": "$s14FawryFramework18DeleteCardResponseC17statusDescriptionSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "basketPayment",
+            "printedName": "basketPayment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework18DeleteCardResponseC13basketPaymentSbSgvp",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC13basketPaymentSbSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework18DeleteCardResponseC13basketPaymentSbSgvg",
+                "mangledName": "$s14FawryFramework18DeleteCardResponseC13basketPaymentSbSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FawryFramework18DeleteCardResponseC4typeSSSgvp",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC4typeSSSgvp",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FawryFramework18DeleteCardResponseC4typeSSSgvg",
+                "mangledName": "$s14FawryFramework18DeleteCardResponseC4typeSSSgvg",
+                "moduleName": "FawryFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(statusCode:statusDescription:basketPayment:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeleteCardResponse",
+                "printedName": "FawryFramework.DeleteCardResponse",
+                "usr": "s:14FawryFramework18DeleteCardResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework18DeleteCardResponseC10statusCode0F11Description13basketPayment4typeACSiSg_SSSgSbSgAItcfc",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC10statusCode0F11Description13basketPayment4typeACSiSg_SSSgSbSgAItcfc",
+            "moduleName": "FawryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeleteCardResponse",
+                "printedName": "FawryFramework.DeleteCardResponse",
+                "usr": "s:14FawryFramework18DeleteCardResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FawryFramework18DeleteCardResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FawryFramework18DeleteCardResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14FawryFramework18DeleteCardResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14FawryFramework18DeleteCardResponseC",
+        "mangledName": "$s14FawryFramework18DeleteCardResponseC",
         "moduleName": "FawryFramework",
         "declAttributes": [
           "AccessControl"
@@ -49379,7 +50048,7 @@
           {
             "kind": "Function",
             "name": "editAddress",
-            "printedName": "editAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
+            "printedName": "editAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:address:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -49577,6 +50246,7 @@
                     "usr": "s:Sb"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -49617,6 +50287,20 @@
                     "name": "Int",
                     "printedName": "Swift.Int",
                     "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
@@ -49762,8 +50446,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14FawryFramework0B6HelperC11editAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
-            "mangledName": "$s14FawryFramework0B6HelperC11editAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
+            "usr": "s:14FawryFramework0B6HelperC11editAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A4_ypSgAA11GeolocationVSgA5_A5_A5_SSSgA9_A9_A9_A9_A9_SbSgA9_A9_SiSgA9_AA0E4ModeOSgA9_A9_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA9_yAA0A5ErrorCSgcyA5_ctF",
+            "mangledName": "$s14FawryFramework0B6HelperC11editAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A4_ypSgAA11GeolocationVSgA5_A5_A5_SSSgA9_A9_A9_A9_A9_SbSgA9_A9_SiSgA9_AA0E4ModeOSgA9_A9_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA9_yAA0A5ErrorCSgcyA5_ctF",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl",
@@ -49774,7 +50458,7 @@
           {
             "kind": "Function",
             "name": "addAddress",
-            "printedName": "addAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
+            "printedName": "addAddress(latitude:longitude:governorate:geolocation:city:area:street:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:address:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -49972,6 +50656,7 @@
                     "usr": "s:Sb"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -50012,6 +50697,20 @@
                     "name": "Int",
                     "printedName": "Swift.Int",
                     "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
@@ -50157,8 +50856,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
-            "mangledName": "$s14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A3_ypSgAA11GeolocationVSgA4_A4_A4_SSSgA8_A8_A8_A8_A8_SbSgA8_A8_SiSgAA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyA4_ctF",
+            "usr": "s:14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A4_ypSgAA11GeolocationVSgA5_A5_A5_SSSgA9_A9_A9_A9_A9_SbSgA9_A9_SiSgA9_AA0E4ModeOSgA9_A9_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA9_yAA0A5ErrorCSgcyA5_ctF",
+            "mangledName": "$s14FawryFramework0B6HelperC10addAddress8latitude9longitude11governorate11geolocation4city4area6street8building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0xY2Id0xZ00X00X4Mode7baseURL11appLanguage8merchant11launchModel0V4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A4_ypSgAA11GeolocationVSgA5_A5_A5_SSSgA9_A9_A9_A9_A9_SbSgA9_A9_SiSgA9_AA0E4ModeOSgA9_A9_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA9_yAA0A5ErrorCSgcyA5_ctF",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -50168,7 +50867,7 @@
           {
             "kind": "Function",
             "name": "addAddressTwo",
-            "printedName": "addAddressTwo(latitude:longitude:governorate:governorateId:city:cityId:area:areaId:street:streetId:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
+            "printedName": "addAddressTwo(latitude:longitude:governorate:governorateId:city:cityId:area:areaId:street:streetId:building:floor:apartment:landmark:userName:mobilePhoneNumber:isDefaultAddress:addressType:addressTypeId:addressId:address:addressMode:baseURL:appLanguage:merchant:launchModel:isMock:orderRefNum:errorBlock:onSuccessHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -50458,6 +51157,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "FawryFramework.AddressMode?",
                 "children": [
                   {
@@ -50596,8 +51309,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ00Y4Mode7baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A6_SSSgA7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_SbSgA7_A7_SiSgAA0E4ModeOSgA7_A7_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA7_yAA0A5ErrorCSgcyypSgctF",
-            "mangledName": "$s14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ00Y4Mode7baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A6_SSSgA7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_SbSgA7_A7_SiSgAA0E4ModeOSgA7_A7_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA7_yAA0A5ErrorCSgcyypSgctF",
+            "usr": "s:14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ00Y00Y4Mode7baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A7_SSSgA8_A8_A8_A8_A8_A8_A8_A8_A8_A8_A8_A8_A8_SbSgA8_A8_SiSgA8_AA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyypSgctF",
+            "mangledName": "$s14FawryFramework0B6HelperC13addAddressTwo8latitude9longitude11governorate0I2Id4city0kJ04area0lJ06street0mJ08building5floor9apartment8landmark8userName17mobilePhoneNumber09isDefaultE011addressType0yzJ00yJ00Y00Y4Mode7baseURL11appLanguage8merchant11launchModel0W4Mock11orderRefNum10errorBlock16onSuccessHandlerySdSg_A7_SSSgA8_A8_A8_A8_A8_A8_A8_A8_A8_A8_A8_A8_A8_SbSgA8_A8_SiSgA8_AA0E4ModeOSgA8_A8_AA19LaunchMerchantModelCAA0A11LaunchModelCSgSbA8_yAA0A5ErrorCSgcyypSgctF",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"
@@ -69473,14 +70186,28 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Card Manager\/Add Card\/Models\/SavedCard.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 2020,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Card Manager\/Add Card\/Models\/SavedCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2020,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Card Manager\/Add Card\/Models\/SavedCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3760,
       "length": 6,
       "value": "\"card\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Card Manager\/Add Card\/Models\/SavedCard.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 3760,
       "length": 6,
       "value": "\"card\""
     },
@@ -78195,77 +78922,91 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 31737,
+      "offset": 31245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 34671,
+      "offset": 31791,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 37807,
+      "offset": 34298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 40222,
+      "offset": 34834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 41473,
+      "offset": 38074,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 42662,
+      "offset": 40545,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 43782,
+      "offset": 41796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 44968,
+      "offset": 42985,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 46272,
+      "offset": 44105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 47585,
+      "offset": 45291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 48899,
+      "offset": 46595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 47908,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPay_Registered\/FawryFramework\/FawryFramework\/Reusable Stuffs\/FrameworkHelper\/FrameworkHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 49222,
       "length": 5,
       "value": "false"
     },
