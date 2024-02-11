@@ -45742,7 +45742,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:)",
+            "printedName": "init(code:name:namePrimaryLang:nameSecondaryLang:id:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -45809,11 +45809,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14FawryFramework6StreetC4code4name0E11PrimaryLang0e9SecondaryG0ACSSSg_A3Htcfc",
-            "mangledName": "$s14FawryFramework6StreetC4code4name0E11PrimaryLang0e9SecondaryG0ACSSSg_A3Htcfc",
+            "usr": "s:14FawryFramework6StreetC4code4name0E11PrimaryLang0e9SecondaryG02idACSSSg_A3ISiSgtcfc",
+            "mangledName": "$s14FawryFramework6StreetC4code4name0E11PrimaryLang0e9SecondaryG02idACSSSg_A3ISiSgtcfc",
             "moduleName": "FawryFramework",
             "declAttributes": [
               "AccessControl"

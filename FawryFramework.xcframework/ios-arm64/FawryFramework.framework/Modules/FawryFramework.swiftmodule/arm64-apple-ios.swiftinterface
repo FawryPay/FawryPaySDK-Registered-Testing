@@ -886,7 +886,7 @@ public class Area : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 public class Street : Swift.Codable {
-  public init(code: Swift.String? = nil, name: Swift.String? = nil, namePrimaryLang: Swift.String? = nil, nameSecondaryLang: Swift.String? = nil)
+  public init(code: Swift.String? = nil, name: Swift.String? = nil, namePrimaryLang: Swift.String? = nil, nameSecondaryLang: Swift.String? = nil, id: Swift.Int? = nil)
   public var code: Swift.String?
   public var name: Swift.String?
   public var namePrimaryLang: Swift.String?
