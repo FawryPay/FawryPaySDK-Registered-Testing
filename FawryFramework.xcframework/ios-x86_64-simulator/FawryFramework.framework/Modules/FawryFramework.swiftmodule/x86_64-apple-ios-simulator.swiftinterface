@@ -38,6 +38,17 @@ public struct SavedCard : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public class CardDetails : Swift.Codable {
+  public init(cardDetails: FawryFramework.SavedCard? = nil, statusCode: Swift.Int? = nil, statusDescription: Swift.String? = nil, type: Swift.String? = nil, cards: [FawryFramework.SavedCard]? = nil)
+  public var cardDetails: FawryFramework.SavedCard?
+  public var statusCode: Swift.Int?
+  public var statusDescription: Swift.String?
+  public var type: Swift.String?
+  public var cards: [FawryFramework.SavedCard]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public class DeleteCardResponse : Swift.Codable {
   final public let statusCode: Swift.Int?
   final public let statusDescription: Swift.String?

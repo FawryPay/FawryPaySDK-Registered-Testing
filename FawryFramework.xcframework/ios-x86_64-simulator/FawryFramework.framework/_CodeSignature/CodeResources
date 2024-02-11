@@ -1976,11 +1976,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5Xdqpj+xrfUIGoOoTHOwUYD8uA0=
+		M1LR+uSH4iphGv9+5y0LYE5/aY0=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PSmCI+F+ksGMEY2W2OmTFDJV67Q=
+		ebqoRVode17Bivt3VIHB277ricw=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1988,11 +1988,11 @@
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PSmCI+F+ksGMEY2W2OmTFDJV67Q=
+		ebqoRVode17Bivt3VIHB277ricw=
 		</data>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YYI8HZbcuzk5Cz8NqbSo6GxU/UQ=
+		Gk6+hcMD6ht7yVfPrL8Mz477ahI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -5582,14 +5582,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OE6phw/5CURekQ8iwde9XQaPEs7k2nHQdn4Gn0I38g8=
+			Rsel4M5iOc6YUlPh1XkiNmPjdxQqN5sGWo0kd6YKMSw=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zy8zqtQsD1iwoTuK6K2UcpW/KSbRcibUUxCcSNgpbBk=
+			VK2Wi9pmU3uNTpjs/99jfH5BmROFWFz1COR+yvxkfbo=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -5603,14 +5603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zy8zqtQsD1iwoTuK6K2UcpW/KSbRcibUUxCcSNgpbBk=
+			VK2Wi9pmU3uNTpjs/99jfH5BmROFWFz1COR+yvxkfbo=
 			</data>
 		</dict>
 		<key>Modules/FawryFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9CR36YVofNLay5D9kQGLC8NaZzpjd3ErPcbRqNweEyo=
+			2KSDaCzqQFDuPlwWjzq2MPHrsL9Sr/vBIGsg7oVoVBc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
